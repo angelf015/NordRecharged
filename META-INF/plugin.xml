@@ -1,0 +1,113 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+  <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+  <id>com.nordrecharged.themes</id>
+  <version>1.0.0</version>
+  <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
+  <name>Nord Recharged</name>
+  <category>UI</category>
+  <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+  <vendor email="angelf015.lf@gmail.com" url="https://github.com/angelf015/NordRecharged">Nord Recharged Team</vendor>
+  <idea-version since-build="233" until-build="263.*" />
+  <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
+  <description><![CDATA[<h2>Nord Recharged - Beautiful Arctic-inspired Themes for IntelliJ</h2>
+        
+        <p>Four carefully crafted themes combining the elegance of the <strong>Nord color palette</strong> with modern UI design. Perfect for developers who love clean, minimal aesthetics with optimal readability.</p>
+        
+        <h3>What's Included:</h3>
+        <ul>
+            <li><strong>Nord Recharged Dark</strong> - Pure Nord dark theme with Polar Night backgrounds</li>
+            <li><strong>Nord Recharged Light</strong> - Clean light variant perfect for bright environments</li>
+            <li><strong>OneNord Dark Recharged</strong> - One Dark style with Nord colors (purple keywords, yellow classes)</li>
+            <li><strong>OneNord Light Recharged</strong> - One Light style with vibrant Nord palette</li>
+        </ul>
+        
+        <h3>Key Features:</h3>
+        <ul>
+            <li><strong>100% Official Palettes:</strong> Authentic Nord colors + OneNord colors by @rmehri01</li>
+            <li><strong>Islands UI Support:</strong> Fully optimized for JetBrains' modern UI</li>
+            <li><strong>Enhanced Readability:</strong> Keywords in bold, comments in italic</li>
+            <li><strong>50+ Java Attributes:</strong> Comprehensive syntax highlighting</li>
+            <li><strong>Multi-Language:</strong> Java, Kotlin, Python, JavaScript, TypeScript, and more</li>
+            <li><strong>Eye-Friendly:</strong> Optimized contrast for long coding sessions</li>
+            <li><strong>Subtle Accents:</strong> Blue-tinted headers for visual identity</li>
+        </ul>
+        
+        <h3>Perfect For:</h3>
+        <ul>
+            <li>Nord theme enthusiasts</li>
+            <li>Developers migrating from VS Code or Atom</li>
+            <li>Anyone seeking elegant, minimal themes</li>
+            <li>Projects requiring extended focus time</li>
+        </ul>
+        
+        <h3>Installation:</h3>
+        <ol>
+            <li>Install this plugin</li>
+            <li>Restart your IDE</li>
+            <li>Go to <strong>Settings → Appearance & Behavior → Appearance → Theme</strong></li>
+            <li>Select your preferred Nord Recharged theme</li>
+        </ol>
+        
+        <h3>Color Philosophy:</h3>
+        <p><strong>Nord Recharged:</strong> Minimalist with subtle blue accents, cyan selections<br>
+        <strong>OneNord Recharged:</strong> More colorful with purple keywords, yellow classes, red variables</p>
+        
+        <h3>Links:</h3>
+        <ul>
+            <li><a href="https://github.com/angelf015/NordRecharged">GitHub Repository</a></li>
+            <li><a href="https://github.com/angelf015/NordRecharged/issues">Report Issues</a></li>
+            <li><a href="https://github.com/nordtheme/nord">Nord Color Palette</a></li>
+        </ul>
+        
+        <p><em>Inspired by Nord JetBrains and OneNord JetBrains themes. Created with care for the community.</em></p>]]></description>
+  <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+  <change-notes><![CDATA[<h3>Version 1.0.0 - Initial Release (2026-07-20)</h3>
+        
+        <h4>Themes Added:</h4>
+        <ul>
+            <li><strong>Nord Recharged Dark & Light</strong> - Pure Nord palette with minimal aesthetic</li>
+            <li><strong>OneNord Dark & Light Recharged</strong> - One Dark/Light style with Nord colors</li>
+        </ul>
+        
+        <h4>Features:</h4>
+        <ul>
+            <li>100% official Nord and OneNord color palettes</li>
+            <li>Full Islands UI support (IntelliJ 2023.3+)</li>
+            <li>50+ Java syntax attributes with optimized colors</li>
+            <li>Keywords in bold, comments in italic for better readability</li>
+            <li>Cyan tree selections (#88C0D0) for better highlighting</li>
+            <li>Subtle blue accent on ToolWindow headers</li>
+            <li>Custom popup backgrounds for better separation</li>
+            <li>Improved scrollbar contrast</li>
+            <li>Multi-language support (Java, Kotlin, Python, JavaScript, TypeScript, etc.)</li>
+        </ul>
+        
+        <h4>Highlights:</h4>
+        <ul>
+            <li><strong>Nord Recharged:</strong> Minimalist with blue keywords, cyan accents</li>
+            <li><strong>OneNord Recharged:</strong> Vibrant with purple keywords, yellow classes, red variables</li>
+        </ul>
+        
+        <h4>Compatibility:</h4>
+        <ul>
+            <li>IntelliJ IDEA 2023.3 - 2026.3 (build 233 - 263)</li>
+            <li>All JetBrains IDEs (PyCharm, WebStorm, PhpStorm, etc.)</li>
+        </ul>]]></change-notes>
+  <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Nord Recharged Dark - Pure Nord Dark Theme -->
+    <themeProvider id="com.nordrecharged.dark" path="/theme/nord-recharged-dark.theme.json" />
+    <!-- Nord Recharged Light - Pure Nord Light Theme -->
+    <themeProvider id="com.nordrecharged.light" path="/theme/nord-recharged-light.theme.json" />
+    <!-- OneNord Dark Recharged - One Dark with Nord Colors -->
+    <themeProvider id="com.nordrecharged.onenord.dark" path="/theme/onenord-dark-recharged.theme.json" />
+    <!-- OneNord Light Recharged - One Light with Nord Colors -->
+    <themeProvider id="com.nordrecharged.onenord.light" path="/theme/onenord-light-recharged.theme.json" />
+  </extensions>
+</idea-plugin>

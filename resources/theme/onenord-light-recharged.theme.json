@@ -4,116 +4,123 @@
   "dark": false,
   "editorScheme": "/colors/onenord-light-recharged.xml",
   "parentTheme": "Islands Light",
-  
+
   "colors": {
-    "// OneNord Light - Official Color Palette from rmehri01/onenord.nvim": "",
+    "// OneNord Light - Nord Light + One Dark Pro Light harmonized palette": "",
     "// Base colors": "",
-    "fg": "#2E3440",
-    "fgLight": "#4C566A",
-    "bg": "#F7F8FA",
-    "gray": "#838FA6",
-    "lightGray": "#646A76",
-    
+    "fg": "#383A42",
+    "fgLight": "#5C6370",
+    "bg": "#ECEFF4",
+    "gray": "#5C6370",
+    "lightGray": "#9AA0AB",
+
     "// Nord color references for backward compatibility": "",
     "nord0": "#2E3440",
     "nord1": "#3B4252",
-    "nord2": "#404A58",
-    "nord3": "#4E5A6A",
-    "nord4": "#D5DAE0",
-    "nord5": "#E2E5E9",
-    "nord6": "#D9DDE2",
-    "nord7": "#00D4D4",
-    "nord8": "#00D9FF",
+    "nord2": "#434C5E",
+    "nord3": "#4C566A",
+    "nord4": "#D8DEE9",
+    "nord5": "#E5E9F0",
+    "nord6": "#ECEFF4",
+    "nord7": "#3D9896",
+    "nord8": "#3AA4C7",
     "nord9": "#5589C9",
-    "nord10": "#4494D3",
-    
-    "// Main accent colors (MAXIMUM SATURATION - ULTRA VIVID)": "",
-    "cyan": "#00D9FF",
-    "blue": "#0055FF",
-    "darkBlue": "#0033CC",
-    "green": "#00E600",
-    "lightGreen": "#00D4D4",
-    "darkRed": "#FF0033",
-    "red": "#FF3355",
-    "lightRed": "#FF5577",
-    "pink": "#FF0066",
-    "darkPink": "#FF0055",
-    "orange": "#FF6600",
-    "yellow": "#FFB300",
-    "purple": "#CC00FF",
-    "lightPurple": "#AA00FF",
-    
+    "nord10": "#2F5F93",
+
+    "// Aurora colors (adapted for light backgrounds)": "",
+    "nord11": "#BF3A47",
+    "nord12": "#C75B3E",
+    "nord13": "#D4A838",
+    "nord14": "#6BA84D",
+    "nord15": "#995E99",
+
+    "// Main accent colors": "",
+    "purple": "#8B5EB5",
+    "green": "#57A64A",
+    "orange": "#B5630A",
+    "blue": "#3A7DC7",
+    "amber": "#C5932A",
+    "red": "#E04553",
+    "softRed": "#D64045",
+    "teal": "#3AA4C7",
+    "cyan": "#3A7DC7",
+    "darkBlue": "#2F5F93",
+    "darkRed": "#BF3A47",
+    "mutedGray": "#6B7B8D",
+    "indentGuide": "#B8C4D4",
+
     "// Semantic colors": "",
-    "error": "#FF0033",
-    "warn": "#FF6600",
-    "info": "#00E600",
-    "hint": "#CC00FF",
-    
+    "error": "#D64045",
+    "warn": "#C5932A",
+    "info": "#3A7DC7",
+    "hint": "#8B5EB5",
+
     "// UI-specific colors": "",
-    "active": "#EFF0F2",
-    "float": "#EDEEF0",
-    "highlight": "#EAEBED",
-    "highlightDark": "#DFE1E4",
-    "selection": "#DCDEE1",
-    
+    "active": "#D8DEE9",
+    "float": "#E5E9F0",
+    "highlight": "#E5E9F0",
+    "highlightDark": "#D8DEE9",
+    "selection": "#D8DEE9",
+
     "// Diff colors": "",
-    "diffAdd": "#C3E6BE",
-    "diffChange": "#DDE6EE",
+    "diffAdd": "#D5F0D0",
+    "diffChange": "#D8DEE9",
     "diffRemove": "#F9D8D6",
     "diffText": "#C9D7E5",
-    
+
     "// UI mappings": "",
-    "bgPrimary": "#D9DDE2",
-    "bgSecondary": "#D1D5DB",
-    "bgTertiary": "#D5D9DF",
-    "bgHighlight": "#CDD1D7",
-    "bgPopup": "#D1D5DB",
-    "bgSelected": "#BDC2CA",
-    "bgHover": "#C5CAD1",
-    "headerBlue": "#C8D2DE",
-    
-    "fgPrimary": "#2E3440",
-    "fgSecondary": "#4C566A",
-    "fgBright": "#2E3440",
-    "fgMuted": "#838FA6",
-    "fgDisabled": "#838FA6",
-    
-    "accentBlue": "#0055FF",
-    "accentCyan": "#00D9FF",
-    "accentGreen": "#00E600",
-    "accentYellow": "#FFB300",
-    "accentOrange": "#FF6600",
-    "accentRed": "#FF3355",
-    "accentPurple": "#CC00FF",
-    
-    "borderPrimary": "#DFE1E4",
-    "borderSecondary": "#EAEBED",
-    "borderHighlight": "#3879C5"
+    "bgPrimary": "#ECEFF4",
+    "bgSecondary": "#E5E9F0",
+    "bgTertiary": "#D8DEE9",
+    "bgHighlight": "#E5E9F0",
+    "bgPopup": "#FFFFFF",
+    "bgSelected": "#D8DEE9",
+    "bgHover": "#E5E9F0",
+    "headerBlue": "#D8DEE9",
+
+    "fgPrimary": "#383A42",
+    "fgSecondary": "#5C6370",
+    "fgBright": "#383A42",
+    "fgMuted": "#9AA0AB",
+    "fgDisabled": "#9AA0AB",
+
+    "accentPurple": "#8B5EB5",
+    "accentGreen": "#57A64A",
+    "accentOrange": "#B5630A",
+    "accentBlue": "#3A7DC7",
+    "accentAmber": "#C5932A",
+    "accentRed": "#E04553",
+    "accentSoftRed": "#D64045",
+    "accentCyan": "#3AA4C7",
+
+    "borderPrimary": "#D8DEE9",
+    "borderSecondary": "#E5E9F0",
+    "borderHighlight": "#3A7DC7"
   },
-  
+
   "ui": {
     "// ==== MAIN WINDOW & GLOBAL SETTINGS ====": "",
     "MainWindow.background": "bgPrimary",
     "MainWindow.inactiveBackground": "bgPrimary",
-    
-    "// ==== ISLANDS UI - CRITICAL FOR NEW UI ====": "",
+
+    "// ==== ISLANDS UI ====": "",
     "Island.background": "bgSecondary",
     "Island.borderColor": "borderPrimary",
     "Island.hoverBackground": "bgHover",
     "Island.selectedBackground": "bgSelected",
-    
+
     "// ==== EDITOR ====": "",
-    "Editor.background": "#D9DDE2",
-    "EditorPane.background": "#D9DDE2",
+    "Editor.background": "bgPrimary",
+    "EditorPane.background": "bgPrimary",
     "EditorTabs.background": "bgSecondary",
     "EditorTabs.borderColor": "borderSecondary",
     "EditorTabs.underlineColor": "accentBlue",
     "EditorTabs.selectedBackground": "bgTertiary",
     "EditorTabs.inactiveUnderlineColor": "borderPrimary",
-    
-    "EditorGutter.background": "#D9DDE2",
-    "EditorGutterBackground": "#D9DDE2",
-    
+
+    "EditorGutter.background": "bgSecondary",
+    "EditorGutterBackground": "bgSecondary",
+
     "// ==== TOOL WINDOWS ====": "",
     "ToolWindow.background": "bgPrimary",
     "ToolWindow.Header.background": "headerBlue",
@@ -124,42 +131,42 @@
     "ToolWindow.HeaderTab.hoverBackground": "bgHover",
     "ToolWindow.HeaderTab.inactiveUnderlineColor": "borderPrimary",
     "ToolWindow.HeaderTab.underlineColor": "accentBlue",
-    
-    "// ==== BUTTONS - One Light style with Nord colors ====": "",
+
+    "// ==== BUTTONS ====": "",
     "Button.default.background": "accentBlue",
-    "Button.default.foreground": "bgPrimary",
+    "Button.default.foreground": "#FFFFFF",
     "Button.default.borderColor": "accentBlue",
     "Button.default.focusedBorderColor": "accentCyan",
     "Button.default.shadowColor": "#00000000",
-    
-    "Button.background": "nord4",
+
+    "Button.background": "bgSecondary",
     "Button.foreground": "fgPrimary",
     "Button.borderColor": "borderPrimary",
-    "Button.focusedBorderColor": "borderHighlight",
-    "Button.disabledBackground": "nord5",
-    "Button.disabledBorderColor": "nord4",
+    "Button.focusedBorderColor": "accentBlue",
+    "Button.disabledBackground": "bgTertiary",
+    "Button.disabledBorderColor": "borderSecondary",
     "Button.disabledText": "fgDisabled",
-    
-    "Button.startBackground": "nord4",
-    "Button.endBackground": "nord4",
+
+    "Button.startBackground": "bgSecondary",
+    "Button.endBackground": "bgSecondary",
     "Button.startBorderColor": "borderPrimary",
     "Button.endBorderColor": "borderPrimary",
-    
+
     "// ==== PANELS & SEPARATORS ====": "",
     "Panel.background": "bgPrimary",
     "Separator.foreground": "borderSecondary",
     "Separator.background": "bgPrimary",
-    
-    "// ==== TREE COMPONENTS - One Light highlighting ====": "",
+
+    "// ==== TREE COMPONENTS ====": "",
     "Tree.background": "bgPrimary",
     "Tree.foreground": "fgPrimary",
     "Tree.selectionBackground": "accentBlue",
-    "Tree.selectionForeground": "fgBright",
+    "Tree.selectionForeground": "#FFFFFF",
     "Tree.selectionInactiveBackground": "bgTertiary",
     "Tree.hoverBackground": "bgHover",
     "Tree.rowHeight": 24,
     "Tree.modifiedItemForeground": "accentCyan",
-    
+
     "// ==== LISTS ====": "",
     "List.background": "bgPopup",
     "List.foreground": "fgPrimary",
@@ -167,7 +174,7 @@
     "List.selectionForeground": "fgBright",
     "List.selectionInactiveBackground": "bgTertiary",
     "List.hoverBackground": "bgHover",
-    
+
     "// ==== TABLES ====": "",
     "Table.background": "bgPopup",
     "Table.foreground": "fgPrimary",
@@ -176,63 +183,63 @@
     "Table.selectionForeground": "fgBright",
     "Table.hoverBackground": "bgHover",
     "Table.lightSelectionBackground": "bgTertiary",
-    
+
     "// ==== TEXT FIELDS & INPUTS ====": "",
     "TextField.background": "#FFFFFF",
     "TextField.foreground": "fgPrimary",
     "TextField.borderColor": "borderPrimary",
-    "TextField.focusedBorderColor": "borderHighlight",
-    "TextField.disabledBackground": "nord6",
+    "TextField.focusedBorderColor": "accentBlue",
+    "TextField.disabledBackground": "bgTertiary",
     "TextField.disabledForeground": "fgDisabled",
-    
+
     "TextArea.background": "#FFFFFF",
     "TextArea.foreground": "fgPrimary",
     "TextArea.borderColor": "borderPrimary",
-    "TextArea.focusedBorderColor": "borderHighlight",
-    
+    "TextArea.focusedBorderColor": "accentBlue",
+
     "// ==== COMBO BOX ====": "",
     "ComboBox.background": "#FFFFFF",
     "ComboBox.foreground": "fgPrimary",
-    "ComboBox.ArrowButton.background": "nord4",
+    "ComboBox.ArrowButton.background": "bgSecondary",
     "ComboBox.ArrowButton.foreground": "fgPrimary",
-    "ComboBox.ArrowButton.nonEditableBackground": "nord4",
+    "ComboBox.ArrowButton.nonEditableBackground": "bgSecondary",
     "ComboBox.borderColor": "borderPrimary",
-    "ComboBox.disabledBackground": "nord6",
+    "ComboBox.disabledBackground": "bgTertiary",
     "ComboBox.disabledForeground": "fgDisabled",
     "ComboBox.selectionBackground": "bgSelected",
     "ComboBox.selectionForeground": "fgBright",
-    
+
     "// ==== POPUP MENUS ====": "",
     "PopupMenu.background": "bgPopup",
     "PopupMenu.foreground": "fgPrimary",
     "PopupMenu.borderColor": "borderPrimary",
     "PopupMenu.selectionBackground": "bgSelected",
     "PopupMenu.selectionForeground": "fgBright",
-    
+
     "Menu.background": "bgPopup",
     "Menu.foreground": "fgPrimary",
     "Menu.borderColor": "borderPrimary",
     "Menu.selectionBackground": "bgSelected",
     "Menu.selectionForeground": "fgBright",
     "Menu.separatorColor": "borderSecondary",
-    
+
     "MenuItem.background": "bgPopup",
     "MenuItem.foreground": "fgPrimary",
     "MenuItem.selectionBackground": "bgSelected",
     "MenuItem.selectionForeground": "fgBright",
     "MenuItem.disabledForeground": "fgDisabled",
-    
+
     "// ==== SCROLLBARS ====": "",
     "ScrollBar.background": "bgPrimary",
-    "ScrollBar.Transparent.thumbColor": "#C2C8D1",
-    "ScrollBar.Transparent.thumbBorderColor": "#C2C8D1",
-    "ScrollBar.Transparent.hoverThumbColor": "#A0A7B2",
-    "ScrollBar.Transparent.hoverThumbBorderColor": "#A0A7B2",
-    "ScrollBar.thumbColor": "#C2C8D1",
-    "ScrollBar.thumbBorderColor": "#C2C8D1",
-    "ScrollBar.hoverThumbColor": "#A0A7B2",
-    "ScrollBar.hoverThumbBorderColor": "#A0A7B2",
-    
+    "ScrollBar.Transparent.thumbColor": "#C8CED8",
+    "ScrollBar.Transparent.thumbBorderColor": "#C8CED8",
+    "ScrollBar.Transparent.hoverThumbColor": "#A8B0BC",
+    "ScrollBar.Transparent.hoverThumbBorderColor": "#A8B0BC",
+    "ScrollBar.thumbColor": "#C8CED8",
+    "ScrollBar.thumbBorderColor": "#C8CED8",
+    "ScrollBar.hoverThumbColor": "#A8B0BC",
+    "ScrollBar.hoverThumbBorderColor": "#A8B0BC",
+
     "// ==== TABS ====": "",
     "TabbedPane.background": "bgPrimary",
     "TabbedPane.foreground": "fgPrimary",
@@ -240,61 +247,61 @@
     "TabbedPane.selectedBackground": "bgSecondary",
     "TabbedPane.hoverColor": "bgHover",
     "TabbedPane.contentAreaColor": "borderSecondary",
-    
+
     "// ==== LINKS ====": "",
     "Link.activeForeground": "accentCyan",
-    "Link.hoverForeground": "nord7",
-    "Link.pressedForeground": "nord10",
+    "Link.hoverForeground": "#3AA4C7",
+    "Link.pressedForeground": "#2F5F93",
     "Link.visitedForeground": "accentPurple",
-    
-    "// ==== PROGRESS BAR - One Light style ====": "",
-    "ProgressBar.trackColor": "nord5",
+
+    "// ==== PROGRESS BAR ====": "",
+    "ProgressBar.trackColor": "bgTertiary",
     "ProgressBar.progressColor": "accentBlue",
     "ProgressBar.indeterminateStartColor": "accentCyan",
     "ProgressBar.indeterminateEndColor": "accentBlue",
     "ProgressBar.failedColor": "accentRed",
     "ProgressBar.failedEndColor": "accentOrange",
     "ProgressBar.passedColor": "accentGreen",
-    "ProgressBar.passedEndColor": "accentYellow",
-    
+    "ProgressBar.passedEndColor": "accentAmber",
+
     "// ==== CHECKBOXES & RADIO BUTTONS ====": "",
     "CheckBox.background": "bgPrimary",
     "CheckBox.foreground": "fgPrimary",
     "CheckBox.borderColor1": "borderPrimary",
     "CheckBox.borderColor2": "borderPrimary",
-    "CheckBox.focusedBorderColor": "borderHighlight",
-    "CheckBox.disabledBorderColor": "nord4",
-    
+    "CheckBox.focusedBorderColor": "accentBlue",
+    "CheckBox.disabledBorderColor": "borderSecondary",
+
     "RadioButton.background": "bgPrimary",
     "RadioButton.foreground": "fgPrimary",
     "RadioButton.borderColor": "borderPrimary",
-    "RadioButton.focusedBorderColor": "borderHighlight",
-    "RadioButton.disabledBorderColor": "nord4",
-    
+    "RadioButton.focusedBorderColor": "accentBlue",
+    "RadioButton.disabledBorderColor": "borderSecondary",
+
     "// ==== TOOLTIPS ====": "",
-    "ToolTip.background": "nord4",
+    "ToolTip.background": "bgSecondary",
     "ToolTip.foreground": "fgBright",
     "ToolTip.borderColor": "borderPrimary",
-    "ToolTip.Actions.background": "nord5",
+    "ToolTip.Actions.background": "bgTertiary",
     "ToolTip.Actions.infoForeground": "accentCyan",
-    
-    "// ==== NOTIFICATIONS - One Light inspired ====": "",
+
+    "// ==== NOTIFICATIONS ====": "",
     "Notification.background": "bgSecondary",
     "Notification.foreground": "fgPrimary",
     "Notification.borderColor": "borderPrimary",
     "Notification.errorBackground": "accentRed",
     "Notification.errorBorderColor": "accentRed",
-    "Notification.errorForeground": "nord6",
+    "Notification.errorForeground": "#FFFFFF",
     "Notification.ToolWindow.errorBackground": "accentRed",
     "Notification.ToolWindow.errorBorderColor": "accentRed",
-    "Notification.ToolWindow.errorForeground": "nord6",
-    "Notification.ToolWindow.warningBackground": "accentYellow",
+    "Notification.ToolWindow.errorForeground": "#FFFFFF",
+    "Notification.ToolWindow.warningBackground": "accentAmber",
     "Notification.ToolWindow.warningBorderColor": "accentOrange",
-    "Notification.ToolWindow.warningForeground": "nord0",
+    "Notification.ToolWindow.warningForeground": "#383A42",
     "Notification.ToolWindow.informativeBackground": "accentBlue",
-    "Notification.ToolWindow.informativeBorderColor": "nord10",
-    "Notification.ToolWindow.informativeForeground": "nord6",
-    
+    "Notification.ToolWindow.informativeBorderColor": "#2F5F93",
+    "Notification.ToolWindow.informativeForeground": "#FFFFFF",
+
     "// ==== SEARCH & HIGHLIGHTS ====": "",
     "SearchEverywhere.background": "bgSecondary",
     "SearchEverywhere.foreground": "fgPrimary",
@@ -303,49 +310,49 @@
     "SearchEverywhere.SearchField.borderColor": "borderPrimary",
     "SearchEverywhere.Tab.selectedBackground": "bgSelected",
     "SearchEverywhere.Tab.selectedForeground": "fgBright",
-    
-    "SearchMatch.startBackground": "accentYellow",
-    "SearchMatch.endBackground": "accentYellow",
-    
+
+    "SearchMatch.startBackground": "accentAmber",
+    "SearchMatch.endBackground": "accentAmber",
+
     "// ==== STATUS BAR ====": "",
     "StatusBar.background": "bgPrimary",
     "StatusBar.foreground": "fgSecondary",
     "StatusBar.borderColor": "borderSecondary",
-    
-    "// ==== DEBUGGER - One Light colors ====": "",
+
+    "// ==== DEBUGGER ====": "",
     "Debugger.Variables.valueForeground": "accentCyan",
-    "Debugger.Variables.modifyingValueForeground": "accentYellow",
+    "Debugger.Variables.modifyingValueForeground": "accentAmber",
     "Debugger.Variables.changedValueForeground": "accentOrange",
     "Debugger.Variables.errorMessageForeground": "accentRed",
     "Debugger.Variables.exceptionForeground": "accentRed",
-    
+
     "// ==== VERSION CONTROL ====": "",
     "VersionControl.FileHistory.Commit.selectedBranchBackground": "accentBlue",
     "VersionControl.GitLog.localBranchIconColor": "accentBlue",
-    "VersionControl.GitLog.remoteBranchIconColor": "nord10",
-    "VersionControl.GitLog.tagIconColor": "accentYellow",
+    "VersionControl.GitLog.remoteBranchIconColor": "#2F5F93",
+    "VersionControl.GitLog.tagIconColor": "accentAmber",
     "VersionControl.GitLog.headIconColor": "accentCyan",
-    "VersionControl.Log.Commit.currentBranchBackground": "nord4",
+    "VersionControl.Log.Commit.currentBranchBackground": "bgSecondary",
     "VersionControl.Log.Commit.hoveredBackground": "bgHover",
     "VersionControl.Log.Commit.unmatchedForeground": "fgDisabled",
-    
-    "VersionControl.RefLabel.backgroundBase": "nord4",
+
+    "VersionControl.RefLabel.backgroundBase": "bgSecondary",
     "VersionControl.RefLabel.foreground": "fgBright",
-    
+
     "// ==== DIFF & MERGE ====": "",
     "DiffView.Editor.gutterBackground": "#FFFFFF",
     "DiffView.Editor.lineNumbers.background": "#FFFFFF",
-    
+
     "// ==== ACTIONS ====": "",
     "ActionButton.hoverBackground": "bgHover",
     "ActionButton.hoverBorderColor": "borderPrimary",
     "ActionButton.pressedBackground": "bgSelected",
     "ActionButton.pressedBorderColor": "borderPrimary",
-    
+
     "// ==== BORDERS ====": "",
     "Borders.color": "borderSecondary",
     "Borders.ContrastBorderColor": "borderPrimary",
-    
+
     "// ==== PLUGINS ====": "",
     "Plugins.background": "bgPrimary",
     "Plugins.SearchField.background": "#FFFFFF",
@@ -354,7 +361,7 @@
     "Plugins.Tab.selectedBackground": "bgSelected",
     "Plugins.Tab.selectedForeground": "fgBright",
     "Plugins.Tab.hoverBackground": "bgHover",
-    
+
     "// ==== WELCOME SCREEN ====": "",
     "WelcomeScreen.background": "bgPrimary",
     "WelcomeScreen.borderColor": "borderSecondary",
@@ -362,13 +369,13 @@
     "WelcomeScreen.Projects.selectionBackground": "bgSelected",
     "WelcomeScreen.Projects.selectionInactiveBackground": "bgTertiary",
     "WelcomeScreen.Projects.actions.background": "bgHover",
-    
+
     "// ==== LIVE TEMPLATES ====": "",
-    "LiveTemplate.shortcutForeground": "accentYellow",
-    
+    "LiveTemplate.shortcutForeground": "accentAmber",
+
     "// ==== CODE LENS ====": "",
     "CodeLens.borderColor": "borderSecondary",
-    
+
     "// ==== INLINE COMPLETION ====": "",
     "CompletionPopup.background": "bgPopup",
     "CompletionPopup.foreground": "fgPrimary",
@@ -376,7 +383,7 @@
     "CompletionPopup.selectionForeground": "fgBright",
     "CompletionPopup.selectionInactiveBackground": "bgTertiary",
     "CompletionPopup.matchForeground": "accentCyan",
-    
+
     "// ==== RUN/DEBUG CONFIGURATION ====": "",
     "RunWidget.background": "#FFFFFF",
     "RunWidget.foreground": "fgPrimary",
@@ -385,25 +392,25 @@
     "RunWidget.runningBackground": "accentGreen",
     "RunWidget.stopBackground": "accentRed"
   },
-  
+
   "icons": {
     "ColorPalette": {
       "Actions.Red": "accentRed",
-      "Actions.Yellow": "accentYellow",
+      "Actions.Yellow": "accentAmber",
       "Actions.Green": "accentGreen",
       "Actions.Blue": "accentBlue",
-      "Actions.Grey": "#7A8090",
-      "Actions.GreyInline": "nord2",
+      "Actions.Grey": "#5C6370",
+      "Actions.GreyInline": "#9AA0AB",
       "Objects.RedStatus": "accentRed",
-      "Objects.Yellow": "accentYellow",
+      "Objects.Yellow": "accentAmber",
       "Objects.Green": "accentGreen",
       "Objects.GreenAndroid": "accentGreen",
       "Objects.Blue": "accentCyan",
       "Objects.Purple": "accentPurple",
-      "Objects.Pink": "accentPurple",
-      "Objects.BlackText": "nord0",
+      "Objects.Pink": "accentRed",
+      "Objects.BlackText": "#383A42",
       "Objects.YellowDark": "accentOrange",
-      "Objects.GreyedOut": "nord3",
+      "Objects.GreyedOut": "#9AA0AB",
       "Tree.iconColor": "accentCyan",
       "Checkbox.Background.Default": "#FFFFFF",
       "Checkbox.Border.Default": "borderPrimary",
@@ -411,9 +418,9 @@
       "Checkbox.Focus.Wide": "accentCyan",
       "Checkbox.Focus.Thin.Default": "accentBlue",
       "Checkbox.Focus.Thin.Selected": "accentBlue",
-      "Checkbox.Background.Disabled": "nord6",
-      "Checkbox.Border.Disabled": "nord4",
-      "Checkbox.Foreground.Disabled": "nord3"
+      "Checkbox.Background.Disabled": "bgTertiary",
+      "Checkbox.Border.Disabled": "borderSecondary",
+      "Checkbox.Foreground.Disabled": "#9AA0AB"
     }
   }
 }
