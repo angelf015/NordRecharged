@@ -37,6 +37,7 @@
     "bgPopup": "#E0E5EC",
     "bgHover": "nord4",
     "bgSelected": "nord4",
+    "headerBlue": "#D3DAE8",
     
     "fgPrimary": "nord1",
     "fgSecondary": "nord2",
@@ -74,7 +75,8 @@
     
     "// ==== TOOL WINDOWS ====": "",
     "ToolWindow.background": "bgPrimary",
-    "ToolWindow.Header.background": "nord4",
+    "ToolWindow.Header.background": "headerBlue",
+    "ToolWindow.Header.inactiveBackground": "bgTertiary",
     "ToolWindow.Header.borderColor": "borderSecondary",
     "ToolWindow.HeaderTab.selectedBackground": "bgTertiary",
     "ToolWindow.HeaderTab.selectedInactiveBackground": "bgSecondary",
