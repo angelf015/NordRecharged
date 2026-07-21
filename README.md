@@ -8,7 +8,7 @@
 [![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3+-81A1C1.svg?style=flat-square)](https://www.jetbrains.com/idea/)
 [![License](https://img.shields.io/badge/license-MIT-A3BE8C.svg?style=flat-square)](LICENSE)
 
-*Four carefully crafted themes combining the elegance of Nord with the familiarity of One Dark*
+_Four carefully crafted themes combining the elegance of Nord with the familiarity of One Dark_
 
 [Features](#-features) • [Installation](#-installation) • [Themes](#-themes) • [Screenshots](#-screenshots) • [Contributing](#-contributing)
 
@@ -31,34 +31,42 @@
 ## 🎨 Themes
 
 ### Nord Recharged Dark
+
 > Pure Nord palette with enhanced readability
 
 **Perfect for:** Fans of the original Nord theme, minimalist aesthetics
+
 - Keywords: Bold blue for better visibility
 - Comments: Italic gray for clear distinction
 - Based on official Nord JetBrains theme
 
 ### Nord Recharged Light
+
 > Inverted Nord palette for bright environments
 
 **Perfect for:** Well-lit rooms, daytime coding
+
 - Same color philosophy as Dark
 - Optimized contrast for light backgrounds
 - Easy on the eyes in bright conditions
 
 ### OneNord Dark Recharged
+
 > Nord colors with One Dark distribution
 
 **Perfect for:** Atom/VS Code One Dark users, more colorful syntax
+
 - Purple keywords like One Dark
 - Yellow classes for better distinction
 - Red variables for instant recognition
 - Official OneNord palette by @rmehri01
 
 ### OneNord Light Recharged
+
 > One Light style with Nord palette
 
 **Perfect for:** One Light fans, vibrant light theme lovers
+
 - Bright, saturated colors
 - Excellent contrast on light backgrounds
 - Official OneNord Light palette
@@ -68,12 +76,13 @@
 ## 📸 Screenshots
 
 ### Nord Recharged Dark
+
 ```java
 // Clean and minimalist Nord aesthetic
 public class UserService {
     private static final int MAX_USERS = 100;
     private String name = "Nord Theme";
-    
+
     @Override
     public void findById(int id) {
         // Keywords in blue, classes in cyan
@@ -84,6 +93,7 @@ public class UserService {
 ```
 
 **Color Highlights:**
+
 - `public`, `class`, `void` → **Blue** `#81A1C1` (Bold)
 - `UserService`, `String`, `List` → **Cyan/Turquoise** `#8FBCBB`
 - `findById`, `ArrayList` → **Cyan** `#88C0D0`
@@ -92,11 +102,12 @@ public class UserService {
 - `// comments` → **Gray** `#616E88` (Italic)
 
 ### OneNord Dark Recharged
+
 ```java
 // More colorful, One Dark inspired
 public class UserService {
     private String name = "OneNord";  // name in red!
-    
+
     public void process(int value) {
         // Keywords in purple, methods in blue
     }
@@ -104,6 +115,7 @@ public class UserService {
 ```
 
 **Color Highlights:**
+
 - `public`, `class` → **Purple** `#B589D3` (Bold)
 - `UserService`, `String` → **Yellow** `#EBCB8B`
 - `process` → **Blue** `#81A1C1`
@@ -145,14 +157,14 @@ Then follow steps 2-8 from Method 1.
 
 ## 🎯 Theme Comparison
 
-| Feature | Nord Recharged | OneNord Recharged |
-|---------|----------------|-------------------|
+| Feature        | Nord Recharged        | OneNord Recharged      |
+| -------------- | --------------------- | ---------------------- |
 | **Philosophy** | Pure Nord, minimalist | One Dark + Nord fusion |
-| **Keywords** | Blue `#81A1C1` | Purple `#B589D3` |
-| **Classes** | Cyan `#8FBCBB` | Yellow `#EBCB8B` |
-| **Variables** | Default text | Red `#D57780` |
-| **Best For** | Nord purists | One Dark users |
-| **Feeling** | Calm, focused | Vibrant, expressive |
+| **Keywords**   | Blue `#81A1C1`        | Purple `#B589D3`       |
+| **Classes**    | Cyan `#8FBCBB`        | Yellow `#EBCB8B`       |
+| **Variables**  | Default text          | Red `#D57780`          |
+| **Best For**   | Nord purists          | One Dark users         |
+| **Feeling**    | Calm, focused         | Vibrant, expressive    |
 
 ---
 
@@ -160,47 +172,47 @@ Then follow steps 2-8 from Method 1.
 
 ### Nord Dark Theme
 
-| Element | Color | Hex | Preview |
-|---------|-------|-----|---------|
-| Keywords | Blue | `#81A1C1` | ![](https://via.placeholder.com/20/81A1C1/81A1C1.png) |
-| Strings | Green | `#A3BE8C` | ![](https://via.placeholder.com/20/A3BE8C/A3BE8C.png) |
-| Numbers | Purple | `#B48EAD` | ![](https://via.placeholder.com/20/B48EAD/B48EAD.png) |
-| Classes | Cyan/Turquoise | `#8FBCBB` | ![](https://via.placeholder.com/20/8FBCBB/8FBCBB.png) |
-| Methods | Cyan | `#88C0D0` | ![](https://via.placeholder.com/20/88C0D0/88C0D0.png) |
-| Comments | Gray | `#616E88` | ![](https://via.placeholder.com/20/616E88/616E88.png) |
-| Annotations | Orange | `#D08770` | ![](https://via.placeholder.com/20/D08770/D08770.png) |
+| Element     | Color          | Hex       | Preview                                               |
+| ----------- | -------------- | --------- | ----------------------------------------------------- |
+| Keywords    | Blue           | `#81A1C1` | ![](https://via.placeholder.com/20/81A1C1/81A1C1.png) |
+| Strings     | Green          | `#A3BE8C` | ![](https://via.placeholder.com/20/A3BE8C/A3BE8C.png) |
+| Numbers     | Purple         | `#B48EAD` | ![](https://via.placeholder.com/20/B48EAD/B48EAD.png) |
+| Classes     | Cyan/Turquoise | `#8FBCBB` | ![](https://via.placeholder.com/20/8FBCBB/8FBCBB.png) |
+| Methods     | Cyan           | `#88C0D0` | ![](https://via.placeholder.com/20/88C0D0/88C0D0.png) |
+| Comments    | Gray           | `#616E88` | ![](https://via.placeholder.com/20/616E88/616E88.png) |
+| Annotations | Orange         | `#D08770` | ![](https://via.placeholder.com/20/D08770/D08770.png) |
 
 ### OneNord Dark Theme
 
-| Element | Color | Hex | Preview |
-|---------|-------|-----|---------|
-| Keywords | Purple | `#B589D3` | ![](https://via.placeholder.com/20/B589D3/B589D3.png) |
-| Strings | Green | `#91C187` | ![](https://via.placeholder.com/20/91C187/91C187.png) |
-| Numbers | Orange | `#D08F70` | ![](https://via.placeholder.com/20/D08F70/D08F70.png) |
-| Classes | Yellow | `#EBCB8B` | ![](https://via.placeholder.com/20/EBCB8B/EBCB8B.png) |
-| Methods | Blue | `#81A1C1` | ![](https://via.placeholder.com/20/81A1C1/81A1C1.png) |
-| Variables | Red | `#D57780` | ![](https://via.placeholder.com/20/D57780/D57780.png) |
-| Comments | Gray | `#6C7A96` | ![](https://via.placeholder.com/20/6C7A96/6C7A96.png) |
+| Element   | Color  | Hex       | Preview                                               |
+| --------- | ------ | --------- | ----------------------------------------------------- |
+| Keywords  | Purple | `#B589D3` | ![](https://via.placeholder.com/20/B589D3/B589D3.png) |
+| Strings   | Green  | `#91C187` | ![](https://via.placeholder.com/20/91C187/91C187.png) |
+| Numbers   | Orange | `#D08F70` | ![](https://via.placeholder.com/20/D08F70/D08F70.png) |
+| Classes   | Yellow | `#EBCB8B` | ![](https://via.placeholder.com/20/EBCB8B/EBCB8B.png) |
+| Methods   | Blue   | `#81A1C1` | ![](https://via.placeholder.com/20/81A1C1/81A1C1.png) |
+| Variables | Red    | `#D57780` | ![](https://via.placeholder.com/20/D57780/D57780.png) |
+| Comments  | Gray   | `#6C7A96` | ![](https://via.placeholder.com/20/6C7A96/6C7A96.png) |
 
 ---
 
 ## 📚 Documentation
 
-| File | Description |
-|------|-------------|
+| File                                           | Description                                      |
+| ---------------------------------------------- | ------------------------------------------------ |
 | [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) | Complete installation guide with troubleshooting |
-| [VISUAL_EXAMPLE.md](VISUAL_EXAMPLE.md) | Detailed code examples showing all colors |
-| [JAVA_COLORS.md](JAVA_COLORS.md) | 50+ Java syntax attributes configured |
-| [THEME_GUIDE.md](THEME_GUIDE.md) | Theme implementation guide |
-| [ALL_THEMES_UPDATED.md](ALL_THEMES_UPDATED.md) | Latest updates and changes |
-| [ONENORD_UPDATED.md](ONENORD_UPDATED.md) | OneNord official palette info |
+| [VISUAL_EXAMPLE.md](VISUAL_EXAMPLE.md)         | Detailed code examples showing all colors        |
+| [JAVA_COLORS.md](JAVA_COLORS.md)               | 50+ Java syntax attributes configured            |
+| [THEME_GUIDE.md](THEME_GUIDE.md)               | Theme implementation guide                       |
+| [ALL_THEMES_UPDATED.md](ALL_THEMES_UPDATED.md) | Latest updates and changes                       |
+| [ONENORD_UPDATED.md](ONENORD_UPDATED.md)       | OneNord official palette info                    |
 
 ---
 
 ## 🛠️ Compatibility
 
 - **IntelliJ IDEA:** 2023.3+ (Ultimate & Community)
-- **Build Range:** 233 - 999.*
+- **Build Range:** 233 - 999.\*
 - **Other JetBrains IDEs:** PyCharm, WebStorm, PhpStorm, etc.
 - **Java Version:** 17+ (for building from source)
 
@@ -249,7 +261,6 @@ git clone https://github.com/yourusername/nord-recharged.git
 
 1. Reinstall the plugin
 2. Restart IntelliJ IDEA
-3. Check [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) for detailed steps
 
 ---
 
@@ -319,6 +330,6 @@ If you like Nord Recharged, please:
 
 **Made with ❄️ and ☕ by the Nord Recharged Team**
 
-*Nord Recharged - Where Arctic elegance meets modern development*
+_Nord Recharged - Where Arctic elegance meets modern development_
 
 </div>
