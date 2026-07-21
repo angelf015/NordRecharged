@@ -17,11 +17,11 @@
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        <h2>🎨 Nord Recharged - Beautiful Arctic-inspired Themes for IntelliJ</h2>
+        <h2>Nord Recharged - Beautiful Arctic-inspired Themes for IntelliJ</h2>
         
         <p>Four carefully crafted themes combining the elegance of the <strong>Nord color palette</strong> with modern UI design. Perfect for developers who love clean, minimal aesthetics with optimal readability.</p>
         
-        <h3>✨ What's Included:</h3>
+        <h3>What's Included:</h3>
         <ul>
             <li><strong>Nord Recharged Dark</strong> - Pure Nord dark theme with Polar Night backgrounds</li>
             <li><strong>Nord Recharged Light</strong> - Clean light variant perfect for bright environments</li>
@@ -29,7 +29,7 @@
             <li><strong>OneNord Light Recharged</strong> - One Light style with vibrant Nord palette</li>
         </ul>
         
-        <h3>🚀 Key Features:</h3>
+        <h3>Key Features:</h3>
         <ul>
             <li><strong>100% Official Palettes:</strong> Authentic Nord colors + OneNord colors by @rmehri01</li>
             <li><strong>Islands UI Support:</strong> Fully optimized for JetBrains' modern UI</li>
@@ -40,7 +40,7 @@
             <li><strong>Subtle Accents:</strong> Blue-tinted headers for visual identity</li>
         </ul>
         
-        <h3>🎯 Perfect For:</h3>
+        <h3>Perfect For:</h3>
         <ul>
             <li>Nord theme enthusiasts</li>
             <li>Developers migrating from VS Code or Atom</li>
@@ -48,7 +48,7 @@
             <li>Projects requiring extended focus time</li>
         </ul>
         
-        <h3>📦 Installation:</h3>
+        <h3>Installation:</h3>
         <ol>
             <li>Install this plugin</li>
             <li>Restart your IDE</li>
@@ -56,18 +56,18 @@
             <li>Select your preferred Nord Recharged theme</li>
         </ol>
         
-        <h3>🌈 Color Philosophy:</h3>
+        <h3>Color Philosophy:</h3>
         <p><strong>Nord Recharged:</strong> Minimalist with subtle blue accents, cyan selections<br>
         <strong>OneNord Recharged:</strong> More colorful with purple keywords, yellow classes, red variables</p>
         
-        <h3>🔗 Links:</h3>
+        <h3>Links:</h3>
         <ul>
             <li><a href="https://github.com/angelf015/NordRecharged">GitHub Repository</a></li>
             <li><a href="https://github.com/angelf015/NordRecharged/issues">Report Issues</a></li>
             <li><a href="https://github.com/nordtheme/nord">Nord Color Palette</a></li>
         </ul>
         
-        <p><em>Inspired by Nord JetBrains and OneNord JetBrains themes. Created with ❄️ for the community.</em></p>
+        <p><em>Inspired by Nord JetBrains and OneNord JetBrains themes. Created with care for the community.</em></p>
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
@@ -75,13 +75,13 @@
     <change-notes><![CDATA[
         <h3>Version 1.0.0 - Initial Release (2026-07-20)</h3>
         
-        <h4>🎨 Themes Added:</h4>
+        <h4>Themes Added:</h4>
         <ul>
             <li><strong>Nord Recharged Dark & Light</strong> - Pure Nord palette with minimal aesthetic</li>
             <li><strong>OneNord Dark & Light Recharged</strong> - One Dark/Light style with Nord colors</li>
         </ul>
         
-        <h4>✨ Features:</h4>
+        <h4>Features:</h4>
         <ul>
             <li>100% official Nord and OneNord color palettes</li>
             <li>Full Islands UI support (IntelliJ 2023.3+)</li>
@@ -94,15 +94,15 @@
             <li>Multi-language support (Java, Kotlin, Python, JavaScript, TypeScript, etc.)</li>
         </ul>
         
-        <h4>🎯 Highlights:</h4>
+        <h4>Highlights:</h4>
         <ul>
             <li><strong>Nord Recharged:</strong> Minimalist with blue keywords, cyan accents</li>
             <li><strong>OneNord Recharged:</strong> Vibrant with purple keywords, yellow classes, red variables</li>
         </ul>
         
-        <h4>📦 Compatibility:</h4>
+        <h4>Compatibility:</h4>
         <ul>
-            <li>IntelliJ IDEA 2023.3+ (build 233+)</li>
+            <li>IntelliJ IDEA 2023.3 - 2024.3 (build 233 - 243)</li>
             <li>All JetBrains IDEs (PyCharm, WebStorm, PhpStorm, etc.)</li>
         </ul>
     ]]></change-notes>
