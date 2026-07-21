@@ -16,18 +16,18 @@
     <option name="SELECTION_BACKGROUND" value="d8dee9" />
     <option name="SELECTION_FOREGROUND" value="2e3440" />
     
-    <!-- VCS Gutter -->
-    <option name="ADDED_LINES_COLOR" value="a3be8c" />
+    <!-- VCS Gutter - darkened for contrast -->
+    <option name="ADDED_LINES_COLOR" value="85a872" />
     <option name="DELETED_LINES_COLOR" value="bf616a" />
-    <option name="MODIFIED_LINES_COLOR" value="ebcb8b" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="d08770" />
+    <option name="MODIFIED_LINES_COLOR" value="d9b263" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="c16e56" />
     
     <!-- Other Editor Colors -->
     <option name="CONSOLE_BACKGROUND_KEY" value="eceff4" />
     <option name="RIGHT_MARGIN_COLOR" value="e5e9f0" />
     <option name="TEARLINE_COLOR" value="e5e9f0" />
     <option name="SELECTED_TEARLINE_COLOR" value="c2c8d1" />
-    <option name="SELECTED_INDENT_GUIDE" value="81a1c1" />
+    <option name="SELECTED_INDENT_GUIDE" value="6b8db8" />
     
     <!-- Diff & Merge -->
     <option name="DIFF_SEPARATORS_BACKGROUND" value="e5e9f0" />
@@ -52,54 +52,54 @@
       </value>
     </option>
     
-    <!-- Comments -->
+    <!-- Comments - darker for better contrast on light background -->
     <option name="BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="7a8090" />
+        <option name="FOREGROUND" value="5c6a7d" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
     <option name="DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="7a8090" />
+        <option name="FOREGROUND" value="5c6a7d" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
     <option name="LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="7a8090" />
+        <option name="FOREGROUND" value="5c6a7d" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
-    <!-- Keywords -->
+    <!-- Keywords - darker blue for better contrast -->
     <option name="KEYWORD">
       <value>
-        <option name="FOREGROUND" value="5e81ac" />
+        <option name="FOREGROUND" value="4c6b93" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     
-    <!-- Strings -->
+    <!-- Strings - darker green for contrast -->
     <option name="STRING">
       <value>
-        <option name="FOREGROUND" value="a3be8c" />
+        <option name="FOREGROUND" value="85a872" />
       </value>
     </option>
     
-    <!-- Numbers -->
+    <!-- Numbers - darker purple for contrast -->
     <option name="NUMBER">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="FOREGROUND" value="9b7298" />
       </value>
     </option>
     
     <!-- Operators -->
     <option name="OPERATION_SIGN">
       <value>
-        <option name="FOREGROUND" value="81a1c1" />
+        <option name="FOREGROUND" value="6b8db8" />
       </value>
     </option>
     
@@ -125,26 +125,26 @@
     <!-- Functions & Methods -->
     <option name="FUNCTION_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <option name="METHOD_CALL">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <!-- Classes & Types -->
     <option name="CLASS_NAME">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <option name="INTERFACE_NAME">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
@@ -170,7 +170,7 @@
     <!-- Constants -->
     <option name="STATIC_FINAL_FIELD">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="FOREGROUND" value="9b7298" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -178,40 +178,40 @@
     <!-- Annotations -->
     <option name="ANNOTATION_NAME">
       <value>
-        <option name="FOREGROUND" value="d08770" />
+        <option name="FOREGROUND" value="c16e56" />
       </value>
     </option>
     
     <!-- Tags (XML/HTML) -->
     <option name="XML_TAG_NAME">
       <value>
-        <option name="FOREGROUND" value="81a1c1" />
+        <option name="FOREGROUND" value="6b8db8" />
       </value>
     </option>
     
     <option name="XML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <!-- Markdown -->
     <option name="MARKDOWN_HEADER">
       <value>
-        <option name="FOREGROUND" value="81a1c1" />
+        <option name="FOREGROUND" value="6b8db8" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     
     <option name="MARKDOWN_CODE_FENCE">
       <value>
-        <option name="FOREGROUND" value="a3be8c" />
+        <option name="FOREGROUND" value="85a872" />
       </value>
     </option>
     
     <option name="MARKDOWN_LINK">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -219,21 +219,21 @@
     <!-- JSON -->
     <option name="JSON_PROPERTY_KEY">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <!-- YAML -->
     <option name="YAML_ANCHOR">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <!-- SQL -->
     <option name="SQL_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="81a1c1" />
+        <option name="FOREGROUND" value="6b8db8" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -241,7 +241,7 @@
     <!-- RegExp -->
     <option name="REGEXP_META">
       <value>
-        <option name="FOREGROUND" value="ebcb8b" />
+        <option name="FOREGROUND" value="d9b263" />
       </value>
     </option>
     
@@ -281,7 +281,7 @@
     <!-- TODO -->
     <option name="TODO">
       <value>
-        <option name="FOREGROUND" value="ebcb8b" />
+        <option name="FOREGROUND" value="d9b263" />
         <option name="FONT_TYPE" value="3" />
         <option name="ERROR_STRIPE_COLOR" value="c9a65e" />
       </value>
@@ -318,158 +318,158 @@
     <!-- Java Annotations -->
     <option name="JAVA_ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="d08770" />
+        <option name="FOREGROUND" value="c16e56" />
       </value>
     </option>
     
     <option name="ANNOTATION_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <!-- IntelliJ-specific annotation attributes -->
     <option name="ANNOTATION_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="d08770" />
+        <option name="FOREGROUND" value="c16e56" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <!-- Java Classes & Interfaces -->
     <option name="JAVA_CLASS">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <option name="JAVA_INTERFACE">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     
     <option name="JAVA_ABSTRACT_CLASS">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     
     <option name="JAVA_ENUM">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <option name="JAVA_RECORD">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <!-- IntelliJ-specific class attributes -->
     <option name="CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     
     <option name="INTERFACE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     
     <option name="ENUM_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <!-- Java Methods -->
     <option name="JAVA_METHOD_DECLARATION">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <option name="JAVA_METHOD_CALL">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <option name="JAVA_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
     <option name="JAVA_CONSTRUCTOR">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <!-- IntelliJ-specific method attributes -->
     <option name="DEFAULT_INSTANCE_METHOD">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <option name="DEFAULT_STATIC_METHOD">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
     <option name="ABSTRACT_METHOD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     
     <option name="CONSTRUCTOR_DECLARATION_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <option name="METHOD_DECLARATION_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <option name="STATIC_METHOD_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -483,14 +483,14 @@
     
     <option name="JAVA_STATIC_FIELD">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="FOREGROUND" value="9b7298" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
     <option name="JAVA_STATIC_FINAL_FIELD">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="FOREGROUND" value="9b7298" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -510,19 +510,19 @@
     <!-- Java Primitives & Literals -->
     <option name="JAVA_NUMBER">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="FOREGROUND" value="9b7298" />
       </value>
     </option>
     
     <option name="JAVA_STRING">
       <value>
-        <option name="FOREGROUND" value="a3be8c" />
+        <option name="FOREGROUND" value="85a872" />
       </value>
     </option>
     
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ebcb8b" />
+        <option name="FOREGROUND" value="d9b263" />
       </value>
     </option>
     
@@ -601,7 +601,7 @@
     
     <option name="JAVA_DOC_TAG">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -616,14 +616,14 @@
     <!-- Java Special Elements -->
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="FOREGROUND" value="9b7298" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
     <option name="INSTANCE_FINAL_FIELD">
       <value>
-        <option name="FOREGROUND" value="b48ead" />
+        <option name="FOREGROUND" value="9b7298" />
       </value>
     </option>
     
@@ -646,33 +646,33 @@
     <!-- Java Type Parameters (Generics) -->
     <option name="TYPE_PARAMETER_NAME">
       <value>
-        <option name="FOREGROUND" value="8fbcbb" />
+        <option name="FOREGROUND" value="5c9a99" />
       </value>
     </option>
     
     <option name="ABSTRACT_METHOD">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     
     <option name="INHERITED_METHOD">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
     <!-- Java Lambda & Method References -->
     <option name="LAMBDA_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="d08770" />
+        <option name="FOREGROUND" value="c16e56" />
       </value>
     </option>
     
     <option name="METHOD_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
       </value>
     </option>
     
@@ -687,7 +687,7 @@
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="d8dee9" />
-        <option name="FOREGROUND" value="88c0d0" />
+        <option name="FOREGROUND" value="5fa3bb" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
