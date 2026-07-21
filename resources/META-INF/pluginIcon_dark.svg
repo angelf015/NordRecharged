@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <!-- Dark gradient - Polar Night -->
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2E3440"/>
+      <stop offset="100%" style="stop-color:#4C566A"/>
+    </linearGradient>
+    <!-- Bright letter for dark theme -->
+    <linearGradient id="letterDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#88C0D0"/>
+      <stop offset="100%" style="stop-color:#81A1C1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle with dark gradient -->
+  <circle cx="20" cy="20" r="19" fill="url(#bgDark)"/>
+  
+  <!-- Inner circle with cyan accent -->
+  <circle cx="20" cy="20" r="17" fill="none" stroke="#88C0D0" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Letter R - Bright cyan for dark backgrounds -->
+  <g fill="url(#letterDark)">
+    <!-- Vertical bar -->
+    <rect x="12" y="11" width="3.5" height="18" rx="1"/>
+    <!-- Top horizontal -->
+    <rect x="12" y="11" width="10" height="3.5" rx="1"/>
+    <!-- Bowl of R -->
+    <path d="M 15.5 11 L 21 11 C 23.5 11 25 12.5 25 15 C 25 17.5 23.5 19 21 19 L 15.5 19 Z" 
+          fill="none" stroke="url(#letterDark)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Leg of R -->
+    <rect x="20" y="19" width="3.5" height="10" rx="1" 
+          transform="rotate(25 20 19)"/>
+  </g>
+  
+  <!-- Outer accent glow -->
+  <circle cx="20" cy="20" r="19" fill="none" stroke="#5E81AC" stroke-width="1" opacity="0.3"/>
+</svg>
