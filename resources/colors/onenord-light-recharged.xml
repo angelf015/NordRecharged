@@ -9,11 +9,11 @@
   
   <!-- OneNord Light Official Colors -->
   <colors>
-    <!-- Editor Background & Foreground - darker bg for contrast -->
-    <option name="CARET_ROW_COLOR" value="e3e6ea" />
-    <option name="GUTTER_BACKGROUND" value="eaedf0" />
+    <!-- Editor Background & Foreground - darker gray bg -->
+    <option name="CARET_ROW_COLOR" value="d1d5db" />
+    <option name="GUTTER_BACKGROUND" value="d9dde2" />
     <option name="LINE_NUMBERS_COLOR" value="556070" />
-    <option name="SELECTION_BACKGROUND" value="c0c6ce" />
+    <option name="SELECTION_BACKGROUND" value="bdc2ca" />
     <option name="SELECTION_FOREGROUND" value="1a1a2e" />
     
     <!-- VCS Gutter - ULTRA VIVID colors -->
@@ -23,15 +23,15 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ff6600" />
     
     <!-- Other Editor Colors -->
-    <option name="CONSOLE_BACKGROUND_KEY" value="eaedf0" />
-    <option name="RIGHT_MARGIN_COLOR" value="edeef0" />
-    <option name="TEARLINE_COLOR" value="edeef0" />
-    <option name="SELECTED_TEARLINE_COLOR" value="dcdee1" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="d9dde2" />
+    <option name="RIGHT_MARGIN_COLOR" value="d1d5db" />
+    <option name="TEARLINE_COLOR" value="d1d5db" />
+    <option name="SELECTED_TEARLINE_COLOR" value="bdc2ca" />
     <option name="SELECTED_INDENT_GUIDE" value="0055ff" />
     
     <!-- Diff & Merge -->
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="edeef0" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="dcdee1" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="d1d5db" />
+    <option name="FOLDED_TEXT_BORDER_COLOR" value="bdc2ca" />
   </colors>
   
   <attributes>
@@ -39,7 +39,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="2e3440" />
-        <option name="BACKGROUND" value="eaedf0" />
+        <option name="BACKGROUND" value="d9dde2" />
       </value>
     </option>
     
