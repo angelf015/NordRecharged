@@ -74,10 +74,10 @@
       </value>
     </option>
     
-    <!-- Keywords - ULTRA VIVID purple/magenta -->
+    <!-- Keywords - Crimson red -->
     <option name="KEYWORD">
       <value>
-        <option name="FOREGROUND" value="cc00ff" />
+        <option name="FOREGROUND" value="d6394e" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -233,7 +233,7 @@
     <!-- SQL -->
     <option name="SQL_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="aa00ff" />
+        <option name="FOREGROUND" value="d6394e" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -307,10 +307,10 @@
     <!-- JAVA SPECIFIC ATTRIBUTES - ONE LIGHT STYLE -->
     <!-- ============================================ -->
     
-    <!-- Java Keywords - One Light: Purple -->
+    <!-- Java Keywords - Crimson red -->
     <option name="JAVA_KEYWORD">
       <value>
-        <option name="FOREGROUND" value="aa00ff" />
+        <option name="FOREGROUND" value="d6394e" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
