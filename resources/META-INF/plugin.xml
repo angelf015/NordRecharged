@@ -1,30 +1,55 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
-    <id>NordRecharged</id>
+    <id>com.nordrecharged.themes</id>
     <version>1.0.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
-    <name>NordRecharged</name>
+    <name>Nord Recharged</name>
     <category>UI</category>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="support@nordrecharged.com" url="https://github.com/nordrecharged">Nord Recharged Team</vendor>
 
-    <idea-version since-build="251"/>
+    <idea-version since-build="233"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
-        Enter short description for your theme here.<br>
-        <em>most HTML tags may be used</em>
-        ]]></description>
+        <h2>Nord Recharged - Arctic-inspired Color Palette for IntelliJ IDEs</h2>
+        <p>A comprehensive theme collection featuring four carefully crafted variants based on the popular Nord color palette, optimized for the new Islands UI.</p>
+        
+        <h3>Included Themes:</h3>
+        <ul>
+            <li><strong>Nord Recharged Dark</strong> - Pure Nord dark theme with Polar Night backgrounds and Snow Storm text</li>
+            <li><strong>Nord Recharged Light</strong> - Clean light variant with Snow Storm backgrounds and Polar Night text</li>
+            <li><strong>OneNord Dark Recharged</strong> - One Dark distribution with Nord color palette</li>
+            <li><strong>OneNord Light Recharged</strong> - One Light distribution with Nord color palette</li>
+        </ul>
+        
+        <h3>Features:</h3>
+        <ul>
+            <li>Full Islands UI compatibility</li>
+            <li>Authentic Nord color palette (#2E3440, #3B4252, #434C5E, #4C566A, Frost & Aurora accents)</li>
+            <li>Optimized contrast for long coding sessions</li>
+            <li>Comprehensive syntax highlighting for all major languages</li>
+            <li>Consistent UI across all IntelliJ platform products</li>
+        </ul>
+        
+        <p>Select your preferred theme from <strong>Settings → Appearance & Behavior → Appearance → Theme</strong></p>
+    ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        Initial release of the theme.
+        <h3>Version 1.0.0</h3>
+        <ul>
+            <li>Initial release with 4 theme variants</li>
+            <li>Full Islands UI support</li>
+            <li>Complete Nord color palette implementation</li>
+            <li>Optimized for dark and light preferences</li>
+        </ul>
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
@@ -32,8 +57,24 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
+        <!-- Nord Recharged Dark - Pure Nord Dark Theme -->
         <themeProvider
-                id="8696f558-67f2-4cb5-8301-9803e466d196"
-                path="/theme/NordRecharged.theme.json"/>
+                id="com.nordrecharged.dark"
+                path="/theme/nord-recharged-dark.theme.json"/>
+        
+        <!-- Nord Recharged Light - Pure Nord Light Theme -->
+        <themeProvider
+                id="com.nordrecharged.light"
+                path="/theme/nord-recharged-light.theme.json"/>
+        
+        <!-- OneNord Dark Recharged - One Dark with Nord Colors -->
+        <themeProvider
+                id="com.nordrecharged.onenord.dark"
+                path="/theme/onenord-dark-recharged.theme.json"/>
+        
+        <!-- OneNord Light Recharged - One Light with Nord Colors -->
+        <themeProvider
+                id="com.nordrecharged.onenord.light"
+                path="/theme/onenord-light-recharged.theme.json"/>
     </extensions>
 </idea-plugin>

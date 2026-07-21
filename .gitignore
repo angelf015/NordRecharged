@@ -1,2 +1,61 @@
-out
-*.jar
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# Java
+*.class
+hs_err_pid*
+replay_pid*
+
+# Build outputs (keep only versioned releases)
+*.zip
+!NordRecharged-*.zip
+
+# Local configuration
+local.properties
+gradle.properties.local
+
+# Test outputs
+test-output/
