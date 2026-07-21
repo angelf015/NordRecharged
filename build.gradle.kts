@@ -27,7 +27,7 @@ intellij {
 tasks {
     patchPluginXml {
         sinceBuild.set("233")
-        untilBuild.set("243.*")
+        untilBuild.set("263.*")
     }
 
     buildSearchableOptions {

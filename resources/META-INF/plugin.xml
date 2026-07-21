@@ -102,7 +102,7 @@
         
         <h4>Compatibility:</h4>
         <ul>
-            <li>IntelliJ IDEA 2023.3 - 2024.3 (build 233 - 243)</li>
+            <li>IntelliJ IDEA 2023.3 - 2026.3 (build 233 - 263)</li>
             <li>All JetBrains IDEs (PyCharm, WebStorm, PhpStorm, etc.)</li>
         </ul>
     ]]></change-notes>
