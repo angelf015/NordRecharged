@@ -53,7 +53,7 @@
     </option>
     
     <!-- Comments - saturated dark gray for clarity -->
-    <parameter name="BLOCK_COMMENT">
+    <option name="BLOCK_COMMENT">
       <value>
         <option name="FOREGROUND" value="4a5a6d" />
         <option name="FONT_TYPE" value="2" />
