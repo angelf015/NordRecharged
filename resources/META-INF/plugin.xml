@@ -12,7 +12,7 @@
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor email="angelf015.lf@gmail.com" url="https://github.com/angelf015/NordRecharged">Nord Recharged Team</vendor>
 
-    <idea-version since-build="233"/>
+    <idea-version since-build="233" until-build="263.*"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
@@ -34,7 +34,7 @@
             <li><strong>100% Official Palettes:</strong> Authentic Nord colors + OneNord colors by @rmehri01</li>
             <li><strong>Islands UI Support:</strong> Fully optimized for JetBrains' modern UI</li>
             <li><strong>Enhanced Readability:</strong> Keywords in bold, comments in italic</li>
-            <li><strong>50+ Java Attributes:</strong> Comprehensive syntax highlighting</li>
+            <li><strong>Comprehensive Java Syntax:</strong> Optimized highlighting attributes</li>
             <li><strong>Multi-Language:</strong> Java, Kotlin, Python, JavaScript, TypeScript, and more</li>
             <li><strong>Eye-Friendly:</strong> Optimized contrast for long coding sessions</li>
             <li><strong>Subtle Accents:</strong> Blue-tinted headers for visual identity</li>
@@ -73,38 +73,32 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        <h3>Version 1.0.0 - Initial Release (2026-07-20)</h3>
-        
-        <h4>Themes Added:</h4>
+        <h3>Version 1.1.0 (2026-08-12)</h3>
+
+        <h4>Added</h4>
         <ul>
-            <li><strong>Nord Recharged Dark & Light</strong> - Pure Nord palette with minimal aesthetic</li>
-            <li><strong>OneNord Dark & Light Recharged</strong> - One Dark/Light style with Nord colors</li>
+            <li>Custom plugin icons with Nord-style 'R' logo (light and dark variants)</li>
         </ul>
-        
-        <h4>Features:</h4>
+
+        <h4>Changed</h4>
         <ul>
-            <li>100% official Nord and OneNord color palettes</li>
-            <li>Full Islands UI support (IntelliJ 2023.3+)</li>
-            <li>50+ Java syntax attributes with optimized colors</li>
-            <li>Keywords in bold, comments in italic for better readability</li>
-            <li>Cyan tree selections (#88C0D0) for better highlighting</li>
-            <li>Subtle blue accent on ToolWindow headers</li>
-            <li>Custom popup backgrounds for better separation</li>
-            <li>Improved scrollbar contrast</li>
-            <li>Multi-language support (Java, Kotlin, Python, JavaScript, TypeScript, etc.)</li>
+            <li>Extended IDE compatibility to IntelliJ 2026.3 (build 233 - 263.*)</li>
+            <li>Improved Nord Light contrast and saturation for better readability</li>
+            <li>Applied official OneNord Light color palette; refined all syntax colors</li>
+            <li>Consolidated and cleaned up OneNord Dark and Light schemes</li>
+            <li><strong>XML/HTML syntax colors (OneNord Light)</strong> - explicit highlighting for all XML elements:
+                <ul>
+                    <li>Tag names: cyan bold for instant visual identification</li>
+                    <li>Angle brackets: distinct blue, clearly separated from content</li>
+                    <li>Attribute names: orange, differentiated from tag names</li>
+                    <li>Attribute values: green, aligned with string color philosophy</li>
+                    <li>Text content: bright near-white for maximum contrast</li>
+                    <li>XML prologue: yellow italic, clearly marks XML declarations</li>
+                </ul>
+            </li>
         </ul>
-        
-        <h4>Highlights:</h4>
-        <ul>
-            <li><strong>Nord Recharged:</strong> Minimalist with blue keywords, cyan accents</li>
-            <li><strong>OneNord Recharged:</strong> Vibrant with purple keywords, yellow classes, red variables</li>
-        </ul>
-        
-        <h4>Compatibility:</h4>
-        <ul>
-            <li>IntelliJ IDEA 2023.3 - 2026.3 (build 233 - 263)</li>
-            <li>All JetBrains IDEs (PyCharm, WebStorm, PhpStorm, etc.)</li>
-        </ul>
+
+        <p><a href="https://github.com/angelf015/NordRecharged/blob/main/CHANGELOG.md">Full Changelog on GitHub</a></p>
     ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.

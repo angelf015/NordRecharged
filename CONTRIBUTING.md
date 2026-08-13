@@ -72,7 +72,7 @@ Want to add a new theme variant? Great! Please ensure:
 
 1. It uses the Nord or OneNord color palette
 2. It has both `.theme.json` (UI) and `.xml` (Editor Scheme)
-3. Java syntax is fully configured (50+ attributes)
+3. Java syntax is fully configured (Nord themes: JAVA_* attributes; OneNord themes: DEFAULT_* attributes)
 4. Documentation is included
 5. Screenshots are provided
 
@@ -99,14 +99,14 @@ Documentation improvements are always appreciated:
 
 ```bash
 # 1. Fork and clone
-git clone https://github.com/yourusername/nord-recharged.git
-cd nord-recharged
+git clone https://github.com/angelf015/NordRecharged.git
+cd NordRecharged
 
 # 2. Build the plugin
 ./gradlew buildPlugin
 
 # 3. The plugin will be in:
-ls build/distributions/NordRecharged-1.0.0.zip
+ls build/distributions/NordRecharged-1.1.0.zip
 
 # 4. Install in IntelliJ for testing
 # Settings → Plugins → Install from Disk → Select ZIP
@@ -334,13 +334,12 @@ Always use these exact hex values:
 
 For OneNord themes, refer to:
 - [OneNord Repository](https://github.com/rmehri01/onenord-jetbrains)
-- `ONENORD_UPDATED.md` in this repo
 
 ---
 
 ## Questions?
 
-- 💬 Open an [Issue](https://github.com/yourusername/nord-recharged/issues)
+- 💬 Open an [Issue](https://github.com/angelf015/NordRecharged/issues)
 - 📧 Contact maintainers
 - 📖 Check existing documentation
 

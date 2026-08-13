@@ -676,12 +676,25 @@
       </value>
     </option>
     <option name="Groovy method declaration" baseAttributes="METHOD_DECLARATION_ATTRIBUTES"/>
-    <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
-    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING"/>
+    <option name="HTML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="d08f70"/>
+      </value>
+    </option>
+    <option name="HTML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="a3be8c"/>
+      </value>
+    </option>
     <option name="HTML_CUSTOM_TAG_NAME" baseAttributes="HTML_TAG_NAME"/>
     <option name="HTML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
     <option name="HTML_TAG" baseAttributes="DEFAULT_TAG"/>
-    <option name="HTML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD"/>
+    <option name="HTML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="88c0d0"/>
+        <option name="FONT_TYPE" value="1"/>
+      </value>
+    </option>
     <option name="HTTP_REQUEST_MESSAGE_BODY">
       <value>
         <option name="FOREGROUND" value="88c0d0"/>
@@ -1233,17 +1246,45 @@
         <option name="FOREGROUND" value="fa5762"/>
       </value>
     </option>
-    <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
+    <!-- XML Syntax Colors - explicitly defined for better visibility -->
+    <option name="XML_TAG_NAME">
+      <value>
+        <option name="FOREGROUND" value="88c0d0"/>
+        <option name="FONT_TYPE" value="1"/>
+      </value>
+    </option>
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="81a1c1"/>
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_NAME">
+      <value>
+        <option name="FOREGROUND" value="d08f70"/>
+      </value>
+    </option>
+    <option name="XML_ATTRIBUTE_VALUE">
+      <value>
+        <option name="FOREGROUND" value="a3be8c"/>
+      </value>
+    </option>
+    <option name="XML_TAG_DATA">
+      <value>
+        <option name="FOREGROUND" value="eceff4"/>
+      </value>
+    </option>
     <option name="XML_CUSTOM_TAG_NAME" baseAttributes="XML_TAG_NAME"/>
-    <option name="XML_ENTITY_REFERENCE" baseAttributes="DEFAULT_ENTITY"/>
+    <option name="XML_ENTITY_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="d57780"/>
+      </value>
+    </option>
     <option name="XML_PROLOGUE">
       <value>
         <option name="FOREGROUND" value="ebcb8b"/>
+        <option name="FONT_TYPE" value="2"/>
       </value>
     </option>
-    <option name="XML_TAG" baseAttributes="DEFAULT_TAG"/>
-    <option name="XML_TAG_DATA" baseAttributes="TEXT"/>
-    <option name="XML_TAG_NAME" baseAttributes="DEFAULT_KEYWORD"/>
     <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL"/>
     <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD"/>
     <option name="XPATH.XPATH_NAME">

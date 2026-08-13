@@ -4,7 +4,7 @@
 
 ### Beautiful Arctic-inspired color themes for IntelliJ IDEA
 
-[![Version](https://img.shields.io/badge/version-1.0.0-88C0D0.svg?style=flat-square)](https://github.com/yourusername/nord-recharged/releases)
+[![Version](https://img.shields.io/badge/version-1.1.0-88C0D0.svg?style=flat-square)](https://github.com/angelf015/NordRecharged/releases)
 [![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3+-81A1C1.svg?style=flat-square)](https://www.jetbrains.com/idea/)
 [![License](https://img.shields.io/badge/license-MIT-A3BE8C.svg?style=flat-square)](LICENSE)
 
@@ -21,7 +21,7 @@ _Four carefully crafted themes combining the elegance of Nord with the familiari
 - 🎨 **4 Complete Themes** - Dark & Light variants for both Nord and OneNord styles
 - 🎯 **100% Official Palettes** - Nord official colors + OneNord official colors
 - ⚡ **Islands UI Compatible** - Modern JetBrains UI support
-- ☕ **Java Optimized** - 50+ Java-specific syntax attributes configured
+- ☕ **Java Optimized** - Comprehensive Java-specific syntax attributes configured
 - 🔧 **Kotlin, Python, JavaScript** - Full support for multiple languages
 - 👁️ **Eye-Friendly** - Designed for long coding sessions with optimal contrast
 - 🚀 **Actively Maintained** - Regular updates and improvements
@@ -128,7 +128,7 @@ public class UserService {
 
 ### Method 1: From Releases (Recommended)
 
-1. Download `NordRecharged-1.0.0.zip` from [Releases](https://github.com/yourusername/nord-recharged/releases)
+1. Download `NordRecharged-1.1.0.zip` from [Releases](https://github.com/angelf015/NordRecharged/releases)
 2. Open IntelliJ IDEA
 3. **Settings** (`Ctrl+Alt+S` / `Cmd+,`) → **Plugins**
 4. Click ⚙️ → **Install Plugin from Disk...**
@@ -141,14 +141,14 @@ public class UserService {
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/nord-recharged.git
-cd nord-recharged
+git clone https://github.com/angelf015/NordRecharged.git
+cd NordRecharged
 
 # Build the plugin
 ./gradlew buildPlugin
 
 # The plugin will be in:
-# build/distributions/NordRecharged-1.0.0.zip
+# build/distributions/NordRecharged-1.1.0.zip
 ```
 
 Then follow steps 2-8 from Method 1.
@@ -196,23 +196,10 @@ Then follow steps 2-8 from Method 1.
 
 ---
 
-## 📚 Documentation
-
-| File                                           | Description                                      |
-| ---------------------------------------------- | ------------------------------------------------ |
-| [INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md) | Complete installation guide with troubleshooting |
-| [VISUAL_EXAMPLE.md](VISUAL_EXAMPLE.md)         | Detailed code examples showing all colors        |
-| [JAVA_COLORS.md](JAVA_COLORS.md)               | 50+ Java syntax attributes configured            |
-| [THEME_GUIDE.md](THEME_GUIDE.md)               | Theme implementation guide                       |
-| [ALL_THEMES_UPDATED.md](ALL_THEMES_UPDATED.md) | Latest updates and changes                       |
-| [ONENORD_UPDATED.md](ONENORD_UPDATED.md)       | OneNord official palette info                    |
-
----
-
 ## 🛠️ Compatibility
 
 - **IntelliJ IDEA:** 2023.3+ (Ultimate & Community)
-- **Build Range:** 233 - 999.\*
+- **Build Range:** 233 - 263.*
 - **Other JetBrains IDEs:** PyCharm, WebStorm, PhpStorm, etc.
 - **Java Version:** 17+ (for building from source)
 
@@ -232,7 +219,7 @@ Contributions are welcome! Here's how:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/nord-recharged.git
+git clone https://github.com/angelf015/NordRecharged.git
 
 # Build and test
 ./gradlew buildPlugin
@@ -310,7 +297,7 @@ The Nord color palette is created by [Arctic Ice Studio](https://www.nordtheme.c
 If you like Nord Recharged, please:
 
 - ⭐ **Star** this repository
-- 🐛 **Report** bugs or request features via [Issues](https://github.com/yourusername/nord-recharged/issues)
+- 🐛 **Report** bugs or request features via [Issues](https://github.com/angelf015/NordRecharged/issues)
 - 🔀 **Fork** and contribute improvements
 - 📢 **Share** with other Nord theme lovers!
 
@@ -318,11 +305,10 @@ If you like Nord Recharged, please:
 
 ## 📊 Project Stats
 
-![Version](https://img.shields.io/badge/version-1.0.0-88C0D0.svg?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.1.0-88C0D0.svg?style=flat-square)
 ![Themes](https://img.shields.io/badge/themes-4-81A1C1.svg?style=flat-square)
-![Java Support](https://img.shields.io/badge/Java-50%2B%20attributes-A3BE8C.svg?style=flat-square)
+![Java Support](https://img.shields.io/badge/Java-syntax%20optimized-A3BE8C.svg?style=flat-square)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3%2B-B48EAD.svg?style=flat-square)
-![Build](https://img.shields.io/badge/build-passing-A3BE8C.svg?style=flat-square)
 
 ---
 
