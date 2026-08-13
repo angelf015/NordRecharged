@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.nordrecharged.themes</id>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -73,19 +73,10 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        <h3>Version 1.1.0 (2026-08-12)</h3>
-
-        <h4>Added</h4>
-        <ul>
-            <li>Custom plugin icons with Nord-style 'R' logo (light and dark variants)</li>
-        </ul>
+        <h3>Version 1.2.0 (2026-08-12)</h3>
 
         <h4>Changed</h4>
         <ul>
-            <li>Extended IDE compatibility to IntelliJ 2026.3 (build 233 - 263.*)</li>
-            <li>Improved Nord Light contrast and saturation for better readability</li>
-            <li>Applied official OneNord Light color palette; refined all syntax colors</li>
-            <li>Consolidated and cleaned up OneNord Dark and Light schemes</li>
             <li><strong>XML/HTML syntax colors (OneNord Light)</strong> - explicit highlighting for all XML elements:
                 <ul>
                     <li>Tag names: cyan bold for instant visual identification</li>

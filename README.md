@@ -4,7 +4,7 @@
 
 ### Beautiful Arctic-inspired color themes for IntelliJ IDEA
 
-[![Version](https://img.shields.io/badge/version-1.1.0-88C0D0.svg?style=flat-square)](https://github.com/angelf015/NordRecharged/releases)
+[![Version](https://img.shields.io/badge/version-1.2.0-88C0D0.svg?style=flat-square)](https://github.com/angelf015/NordRecharged/releases)
 [![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3+-81A1C1.svg?style=flat-square)](https://www.jetbrains.com/idea/)
 [![License](https://img.shields.io/badge/license-MIT-A3BE8C.svg?style=flat-square)](LICENSE)
 
@@ -128,7 +128,7 @@ public class UserService {
 
 ### Method 1: From Releases (Recommended)
 
-1. Download `NordRecharged-1.1.0.zip` from [Releases](https://github.com/angelf015/NordRecharged/releases)
+1. Download `NordRecharged-1.2.0.zip` from [Releases](https://github.com/angelf015/NordRecharged/releases)
 2. Open IntelliJ IDEA
 3. **Settings** (`Ctrl+Alt+S` / `Cmd+,`) → **Plugins**
 4. Click ⚙️ → **Install Plugin from Disk...**
@@ -148,7 +148,7 @@ cd NordRecharged
 ./gradlew buildPlugin
 
 # The plugin will be in:
-# build/distributions/NordRecharged-1.1.0.zip
+# build/distributions/NordRecharged-1.2.0.zip
 ```
 
 Then follow steps 2-8 from Method 1.
@@ -305,7 +305,7 @@ If you like Nord Recharged, please:
 
 ## 📊 Project Stats
 
-![Version](https://img.shields.io/badge/version-1.1.0-88C0D0.svg?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.2.0-88C0D0.svg?style=flat-square)
 ![Themes](https://img.shields.io/badge/themes-4-81A1C1.svg?style=flat-square)
 ![Java Support](https://img.shields.io/badge/Java-syntax%20optimized-A3BE8C.svg?style=flat-square)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3%2B-B48EAD.svg?style=flat-square)
