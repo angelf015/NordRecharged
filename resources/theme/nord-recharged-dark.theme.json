@@ -70,6 +70,13 @@
     "EditorTabs.selectedBackground": "nord1",
     "EditorTabs.inactiveUnderlineColor": "nord3",
     
+    "FileColor.Blue": "#516276",
+    "FileColor.Green": "#5F6E60",
+    "FileColor.Orange": "#725754",
+    "FileColor.Rose": "#6B4752",
+    "FileColor.Violet": "#665A6E",
+    "FileColor.Yellow": "#7D7360",
+    
     "EditorGutter.background": "nord0",
     "EditorGutterBackground": "nord0",
     

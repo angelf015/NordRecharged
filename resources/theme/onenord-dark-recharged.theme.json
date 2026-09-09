@@ -137,12 +137,12 @@
       "inactiveUnderlinedTabBorderColor": "gray"
     },
     "FileColor": {
-      "Yellow": "#3d3026",
-      "Green": "#293a24",
-      "Blue": "#24354f",
-      "Violet": "#2d1942",
-      "Orange": "#3d3026",
-      "Rose": "#3d1e2b"
+      "Yellow": "#7D7360",
+      "Green": "#586F5E",
+      "Blue": "#516276",
+      "Violet": "#68576F",
+      "Orange": "#725A54",
+      "Rose": "#74505B"
     },
     "GotItTooltip": {
       "foreground": "fg",
