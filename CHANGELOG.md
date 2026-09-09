@@ -5,6 +5,31 @@ All notable changes to the Nord Recharged theme plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-09-09
+
+### Added
+- **Light Theme Caret Colors**: Both light themes now use a visible blue caret `#5589C9` for better cursor contrast in bright environments (works with IdeaVim block cursor)
+
+### Changed
+- **OneNord Light Complete Overhaul**: Full light-palette adaptation for genuine light theme rendering
+  - Dark text `#3B4252` on light backgrounds `#ECEFF4` for optimal readability
+  - All backgrounds converted to light tones (editor, gutters, popups, panels, selection)
+  - OneNord identity colors darkened and saturated for light contrast (keywords `#8D5FB0`, classes `#B5822E`, instances `#BF3A47`, methods `#5589C9`)
+  - Explicit XML/HTML syntax colors refreshed to match the light palette
+  - Buttons, toggles, lists, tables and selection with dark-on-light contrast
+  - Light icon color palette for consistent toolbar rendering
+
+### Fixed
+- **Generated Files & Folders Color**: The orange used to highlight generated/build folders in the Project View was clashing with each theme; now matches the theme palette
+  - Added a proper `FileColor` palette to Nord Recharged Dark (previously inherited the default)
+  - Pastel light tones for OneNord Light, muted dark tones for OneNord Dark and Nord Dark
+
+### Technical
+- Version bumped to 1.3.0 for JetBrains Marketplace publication
+- Compatible with IntelliJ IDEA 2023.3 - 2026.3 (build 233 - 263.*)
+
+---
+
 ## [1.2.0] - 2026-08-12
 
 ### Changed
@@ -89,6 +114,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+[1.3.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.3.0
 [1.2.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.2.0
 [1.1.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.1.0
 [1.0.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.0.0

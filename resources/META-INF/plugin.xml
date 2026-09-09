@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.nordrecharged.themes</id>
-    <version>1.2.0</version>
+    <version>1.3.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -73,18 +73,29 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        <h3>Version 1.2.0 (2026-08-12)</h3>
+        <h3>Version 1.3.0 (2026-09-09)</h3>
 
-        <h4>Changed</h4>
+        <h4>Added</h4>
         <ul>
-            <li><strong>XML/HTML syntax colors (OneNord Light)</strong> - explicit highlighting for all XML elements:
+            <li><strong>OneNord Light Complete Overhaul</strong> - full light-palette adaptation:
                 <ul>
-                    <li>Tag names: cyan bold for instant visual identification</li>
-                    <li>Angle brackets: distinct blue, clearly separated from content</li>
-                    <li>Attribute names: orange, differentiated from tag names</li>
-                    <li>Attribute values: green, aligned with string color philosophy</li>
-                    <li>Text content: bright near-white for maximum contrast</li>
-                    <li>XML prologue: yellow italic, clearly marks XML declarations</li>
+                    <li>Dark text on light backgrounds for optimal readability</li>
+                    <li>All backgrounds converted to light tones (editor, gutters, popups, panels)</li>
+                    <li>OneNord identity colors darkened and saturated for light contrast</li>
+                    <li>Explicit XML/HTML syntax colors refreshed to match the light palette</li>
+                    <li>Selection, lists, tables, buttons and toggles with dark-on-light contrast</li>
+                    <li>Light icon color palette for consistent toolbar rendering</li>
+                </ul>
+            </li>
+            <li><strong>Light theme caret colors</strong> - visible blue caret in both light themes for better cursor contrast</li>
+        </ul>
+
+        <h4>Fixed</h4>
+        <ul>
+            <li><strong>Generated files & folders color (Nord Dark, OneNord Dark, OneNord Light)</strong> - the Dark Orange used by the Project View for generated/build folders was clashing with each theme; now harmonized:
+                <ul>
+                    <li>Added a proper <code>FileColor</code> palette to Nord Recharged Dark (was inheriting the default)</li>
+                    <li>Embracing pastel tones for OneNord Light and muted tones for the dark themes</li>
                 </ul>
             </li>
         </ul>
