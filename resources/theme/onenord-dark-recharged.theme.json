@@ -137,7 +137,7 @@
       "inactiveUnderlinedTabBorderColor": "gray"
     },
     "FileColor": {
-      "Yellow": "#7D7360",
+      "Yellow": "#725A54",
       "Green": "#586F5E",
       "Blue": "#516276",
       "Violet": "#68576F",
@@ -359,7 +359,8 @@
       "selectionBackground": "navy_blue",
       "modifiedItemForeground": "yellow",
       "hoverBackground": "hl2",
-      "hoverInactiveBackground": "hl2"
+      "hoverInactiveBackground": "hl2",
+      "foreground": "fg"
     },
     "VersionControl": {
       "Log.Commit": {
