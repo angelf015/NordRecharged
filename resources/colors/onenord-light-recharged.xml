@@ -63,6 +63,13 @@
     <option name="VISUAL_INDENT_GUIDE" value="c8d0e0"/>
     <option name="WHITESPACES" value="5e626c"/>
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="b5822e"/>
+    <option name="FILESTATUS_ADDED" value="6ba84d"/>
+    <option name="FILESTATUS_DELETED" value="bf3a47"/>
+    <option name="FILESTATUS_MODIFIED" value="b5822e"/>
+    <option name="FILESTATUS_MERGED" value="995e99"/>
+    <option name="FILESTATUS_UNKNOWN" value="c75b3e"/>
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="6f737a"/>
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="6f737a"/>
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">

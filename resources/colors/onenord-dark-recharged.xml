@@ -52,6 +52,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="4c566a"/>
     <option name="SELECTED_INDENT_GUIDE" value="b589d3"/>
     <option name="SELECTED_TEARLINE_COLOR" value="6c7a96"/>
+    <option name="SELECTION_FOREGROUND" value="eceff4"/>
     <option name="SELECTION_BACKGROUND" value="3f4758"/>
     <option name="ScrollBar.Mac.hoverThumbColor" value="6c7a9688"/>
     <option name="ScrollBar.Mac.thumbColor" value="4c566a88"/>
@@ -64,6 +65,13 @@
     <option name="VISUAL_INDENT_GUIDE" value="3f4758"/>
     <option name="WHITESPACES" value="7e8491"/>
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="ebcb8b"/>
+    <option name="FILESTATUS_ADDED" value="a3be8c"/>
+    <option name="FILESTATUS_DELETED" value="bf616a"/>
+    <option name="FILESTATUS_MODIFIED" value="ebcb8b"/>
+    <option name="FILESTATUS_MERGED" value="b48ead"/>
+    <option name="FILESTATUS_UNKNOWN" value="d08770"/>
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="616e88"/>
+    <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="616e88"/>
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
