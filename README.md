@@ -4,7 +4,7 @@
 
 ### Beautiful Arctic-inspired color themes for IntelliJ IDEA
 
-[![Version](https://img.shields.io/badge/version-1.3.0-88C0D0.svg?style=flat-square)](https://github.com/angelf015/NordRecharged/releases)
+[![Version](https://img.shields.io/badge/version-1.4.0-88C0D0.svg?style=flat-square)](https://github.com/angelf015/NordRecharged/releases)
 [![Marketplace Downloads](https://img.shields.io/jetbrains/plugin/d/33028-88C0D0.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/33028-nord-recharged)
 [![Rating](https://img.shields.io/jetbrains/plugin/r/rating/33028-81A1C1.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/33028-nord-recharged)
 [![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3+-81A1C1.svg?style=flat-square)](https://www.jetbrains.com/idea/)
@@ -98,10 +98,10 @@ Nord Recharged brings you four complete themes covering both sides of the spectr
 
 **Color highlights:**
 
-- `public`, `class`, `void` → **Blue** `#2F5F93` (Bold)
-- `findById`, `ArrayList` → **Cyan** `#3AA4C7`
-- `"Nord Theme"` → **Green** `#6BA84D`
-- `100`, `42` → **Purple** `#995E99`
+- `public`, `class`, `void` → **Deep Blue** `#2F5F93` (Bold)
+- `findById`, `ArrayList` → **Blue** `#446EA2`
+- `"Nord Theme"` → **Green** `#4C7736`
+- `100`, `42` → **Purple** `#905890`
 - `// comments` → **Gray** `#4A5A6D` (Italic)
 
 ### OneNord Dark Recharged
@@ -122,11 +122,11 @@ Nord Recharged brings you four complete themes covering both sides of the spectr
 
 **Color highlights:**
 
-- `public`, `class` → **Purple** `#8D5FB0` (Bold)
-- `UserService`, `String` → **Yellow** `#B5822E`
-- `process` → **Blue** `#5589C9`
+- `public`, `class` → **Purple** `#8559A6`
+- `UserService`, `String` → **Yellow** `#8C6523`
+- `process` → **Blue** `#446EA2`
 - `name`, instance fields → **Red** `#BF3A47`
-- `value`, parameters → **Orange** `#C75B3E`
+- `value`, parameters → **Orange** `#AE5036`
 
 ---
 
@@ -154,7 +154,7 @@ cd NordRecharged
 ./gradlew buildPlugin
 
 # The plugin will be in:
-# build/distributions/NordRecharged-1.3.0.zip
+# build/distributions/NordRecharged-1.4.0.zip
 ```
 
 Then follow steps 2-6 from Method 1.

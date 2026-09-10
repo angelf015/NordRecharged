@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.nordrecharged.themes</id>
-    <version>1.3.0</version>
+    <version>1.4.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -73,6 +73,21 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
+        <h3>Version 1.4.0 (2026-09-10)</h3>
+
+        <h4>Added</h4>
+        <ul>
+            <li><strong>VCS File Status Colors</strong> - all four editor schemes now define the file-status text colors (added, modified, deleted, merged, unknown, ignored), so the Project View labels match each theme in both light and dark mode</li>
+            <li><strong>WCAG AA contrast review on Light themes</strong> - every foreground in <em>Nord Recharged Light</em> and <em>OneNord Light Recharged</em> now keeps at least 4.5:1 contrast against its background (keywords, strings, numbers, classes, methods, parameters, line numbers, console output, inline hints and file-status colors). Same Nord hues, minimally darkened</li>
+        </ul>
+
+        <h4>Fixed</h4>
+        <ul>
+            <li><strong>README light color references</strong> - the documented highlight hexes for both light themes were outdated and now match the shipped schemes</li>
+        </ul>
+
+        <p><a href="https://github.com/angelf015/NordRecharged/blob/main/CHANGELOG.md">Full Changelog on GitHub</a></p>
+
         <h3>Version 1.3.0 (2026-09-09)</h3>
 
         <h4>Added</h4>
