@@ -5,6 +5,24 @@ All notable changes to the Nord Recharged theme plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.5.0] - 2026-10-21
+
+### Changed
+- **Nord UI Model Refactor**: `nord-recharged-dark.theme.json` and `nord-recharged-light.theme.json` were migrated from flat dotted UI keys to nested UI objects to match the OneNord configuration model and simplify future maintenance
+- **Editor/UI Background Alignment**: Menus, tool windows, status/main bars, popups and related surfaces were aligned to the editor color-scheme background model for both Nord themes, removing inconsistent inherited tones
+- **Dark/Light Island Hierarchy**: Restored clear Island-vs-window layering in Nord Dark and Nord Light (`MainWindow` vs `Island`) so islands render as distinct surfaces again
+
+### Fixed
+- **Nord Dark Side Menu Consistency**: Added explicit `ToolWindow` stripe/button/header tab overrides in Nord Dark to avoid fallback colors from the parent theme and keep lateral UI surfaces consistent
+- **Panel Separation Visibility**: Rebalanced subtle borders/separators in Nord Dark after background unification so windows are distinguishable without breaking the darker aesthetic
+
+### Technical
+- Removed pseudo-comment JSON keys (`"// ...": ""`) from Nord theme JSON files used for Marketplace packaging
+- Version bumped to 1.5.0 for JetBrains Marketplace publication
+- Compatible with IntelliJ IDEA 2023.3 - 2026.3 (build 233 - 263.*)
+
+---
+
 ## [1.4.0] - 2026-09-10
 
 ### Added
@@ -134,6 +152,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+[1.5.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.5.0
 [1.4.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.4.0
 [1.3.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.3.0
 [1.2.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.2.0

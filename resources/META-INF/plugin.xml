@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.nordrecharged.themes</id>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -73,46 +73,20 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        <h3>Version 1.4.0 (2026-09-10)</h3>
+        <h3>Version 1.5.0 (2026-10-21)</h3>
 
-        <h4>Added</h4>
+        <h4>Changed</h4>
         <ul>
-            <li><strong>VCS File Status Colors</strong> - all four editor schemes now define the file-status text colors (added, modified, deleted, merged, unknown, ignored), so the Project View labels match each theme in both light and dark mode</li>
-            <li><strong>WCAG AA contrast review on Light themes</strong> - every foreground in <em>Nord Recharged Light</em> and <em>OneNord Light Recharged</em> now keeps at least 4.5:1 contrast against its background (keywords, strings, numbers, classes, methods, parameters, line numbers, console output, inline hints and file-status colors). Same Nord hues, minimally darkened</li>
+            <li><strong>Nord UI model migrated to nested JSON</strong> in <em>Nord Recharged Dark</em> and <em>Nord Recharged Light</em> for consistency with OneNord themes and easier maintenance.</li>
+            <li><strong>Editor/UI surface alignment</strong> across menus, popups, tool windows, main/status bars, Search Everywhere and notifications for a consistent background model.</li>
+            <li><strong>Island hierarchy refined</strong> in Nord Dark and Nord Light to restore clear panel layering between main window and islands.</li>
         </ul>
 
         <h4>Fixed</h4>
         <ul>
-            <li><strong>README light color references</strong> - the documented highlight hexes for both light themes were outdated and now match the shipped schemes</li>
-        </ul>
-
-        <p><a href="https://github.com/angelf015/NordRecharged/blob/main/CHANGELOG.md">Full Changelog on GitHub</a></p>
-
-        <h3>Version 1.3.0 (2026-09-09)</h3>
-
-        <h4>Added</h4>
-        <ul>
-            <li><strong>OneNord Light Complete Overhaul</strong> - full light-palette adaptation:
-                <ul>
-                    <li>Dark text on light backgrounds for optimal readability</li>
-                    <li>All backgrounds converted to light tones (editor, gutters, popups, panels)</li>
-                    <li>OneNord identity colors darkened and saturated for light contrast</li>
-                    <li>Explicit XML/HTML syntax colors refreshed to match the light palette</li>
-                    <li>Selection, lists, tables, buttons and toggles with dark-on-light contrast</li>
-                    <li>Light icon color palette for consistent toolbar rendering</li>
-                </ul>
-            </li>
-            <li><strong>Light theme caret colors</strong> - visible blue caret in both light themes for better cursor contrast</li>
-        </ul>
-
-        <h4>Fixed</h4>
-        <ul>
-            <li><strong>Generated files & folders color (Nord Dark, OneNord Dark, OneNord Light)</strong> - the Dark Orange used by the Project View for generated/build folders was clashing with each theme; now harmonized:
-                <ul>
-                    <li>Added a proper <code>FileColor</code> palette to Nord Recharged Dark (was inheriting the default)</li>
-                    <li>Embracing pastel tones for OneNord Light and muted tones for the dark themes</li>
-                </ul>
-            </li>
+            <li><strong>Nord Dark side menu rendering</strong> by adding explicit ToolWindow stripe/button/header overrides to avoid parent-theme fallback colors.</li>
+            <li><strong>Window separation visibility</strong> with subtle border/separator rebalancing after UI background unification.</li>
+            <li><strong>Theme JSON cleanup</strong> by removing pseudo-comment keys used during development.</li>
         </ul>
 
         <p><a href="https://github.com/angelf015/NordRecharged/blob/main/CHANGELOG.md">Full Changelog on GitHub</a></p>
