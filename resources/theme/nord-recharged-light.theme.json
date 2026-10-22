@@ -27,8 +27,8 @@
     "nord15": "#995E99",
     "// Derived UI colors - Inverted hierarchy": "",
     "bgPrimary": "nord6",
-    "bgSecondary": "bgPrimary",
-    "bgTertiary": "bgPrimary",
+    "bgSecondary": "nord5",
+    "bgTertiary": "nord4",
     "bgPopup": "bgPrimary",
     "bgHover": "nord4",
     "bgSelected": "nord4",
@@ -45,12 +45,12 @@
   "ui": {
     "// ==== MAIN WINDOW & GLOBAL SETTINGS ====": "",
     "MainWindow": {
-      "background": "bgPrimary",
-      "inactiveBackground": "bgPrimary"
+      "background": "bgSecondary",
+      "inactiveBackground": "bgSecondary"
     },
     "// ==== ISLANDS UI - CRITICAL FOR NEW UI ====": "",
     "Island": {
-      "background": "bgSecondary",
+      "background": "bgPrimary",
       "borderColor": "borderPrimary",
       "hoverBackground": "bgHover",
       "selectedBackground": "bgSelected"

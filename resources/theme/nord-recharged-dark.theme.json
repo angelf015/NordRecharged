@@ -27,8 +27,8 @@
     "nord15": "#B48EAD",
     "// Derived UI colors": "",
     "bgPrimary": "nord0",
-    "bgSecondary": "bgPrimary",
-    "bgTertiary": "bgPrimary",
+    "bgSecondary": "nord1",
+    "bgTertiary": "nord2",
     "bgPopup": "bgPrimary",
     "bgHover": "nord2",
     "bgSelected": "nord3",
@@ -39,18 +39,38 @@
     "fgDisabled": "#616E88",
     "accentPrimary": "nord8",
     "accentSecondary": "nord9",
-    "borderPrimary": "bgPrimary",
-    "borderSecondary": "bgPrimary"
+    "borderPrimary": "nord3",
+    "borderSecondary": "nord2"
   },
   "ui": {
+    "*": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "infoForeground": "fgDisabled",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgPrimary",
+      "selectionInactiveBackground": "bgPrimary",
+      "disabledText": "fgDisabled",
+      "disabledBackground": "bgPrimary",
+      "inactiveBackground": "bgPrimary",
+      "acceleratorForeground": "fgDisabled",
+      "acceleratorSelectionForeground": "fgPrimary",
+      "errorForeground": "nord11",
+      "Borders.ContrastBorderColor": "bgPrimary",
+      "borderColor": "bgPrimary",
+      "disabledBorderColor": "bgPrimary",
+      "focusColor": "accentPrimary",
+      "focusedBorderColor": "accentPrimary",
+      "separatorColor": "borderSecondary"
+    },
     "// ==== MAIN WINDOW & GLOBAL SETTINGS ====": "",
     "MainWindow": {
-      "background": "bgPrimary",
-      "inactiveBackground": "bgPrimary"
+      "background": "bgSecondary",
+      "inactiveBackground": "bgSecondary"
     },
     "// ==== ISLANDS UI - CRITICAL FOR NEW UI ====": "",
     "Island": {
-      "background": "bgSecondary",
+      "background": "bgPrimary",
       "borderColor": "borderPrimary",
       "hoverBackground": "bgHover",
       "selectedBackground": "bgSelected"
@@ -85,19 +105,19 @@
     "ToolWindow": {
       "background": "bgPrimary",
       "Button": {
-        "hoverBackground": "bgPrimary",
-        "selectedBackground": "bgPrimary",
+        "hoverBackground": "bgHover",
+        "selectedBackground": "bgHover",
         "selectedForeground": "fgPrimary"
       },
       "Header": {
         "background": "headerBlue",
         "inactiveBackground": "bgPrimary",
-        "borderColor": "bgPrimary"
+        "borderColor": "#00000000"
       },
       "HeaderTab": {
         "selectedBackground": "bgPrimary",
         "selectedInactiveBackground": "bgPrimary",
-        "hoverBackground": "bgPrimary",
+        "hoverBackground": "bgHover",
         "inactiveUnderlineColor": "nord3",
         "underlineColor": "accentPrimary"
       },
@@ -142,7 +162,8 @@
       "selectionBackground": "nord10",
       "selectionForeground": "fgPrimary",
       "selectionInactiveBackground": "bgTertiary",
-      "hoverBackground": "bgPrimary",
+      "hoverBackground": "bgHover",
+      "hoverInactiveBackground": "bgHover",
       "rowHeight": 24
     },
     "// ==== LISTS ====": "",
@@ -222,7 +243,7 @@
       "background": "bgPrimary",
       "foreground": "fgPrimary",
       "inactiveBackground": "bgPrimary",
-      "borderColor": "bgPrimary"
+      "borderColor": "#00000000"
     },
     "// ==== SCROLLBARS ====": "",
     "ScrollBar": {
@@ -333,7 +354,7 @@
     "StatusBar": {
       "background": "bgPrimary",
       "foreground": "fgSecondary",
-      "borderColor": "bgPrimary"
+      "borderColor": "#00000000"
     },
     "// ==== DEBUGGER ====": "",
     "Debugger": {
@@ -388,8 +409,8 @@
     },
     "// ==== BORDERS ====": "",
     "Borders": {
-      "color": "bgPrimary",
-      "ContrastBorderColor": "bgPrimary"
+      "color": "borderSecondary",
+      "ContrastBorderColor": "borderPrimary"
     },
     "// ==== PLUGINS ====": "",
     "Plugins": {
@@ -410,7 +431,7 @@
     "// ==== WELCOME SCREEN ====": "",
     "WelcomeScreen": {
       "background": "bgPrimary",
-      "borderColor": "bgPrimary",
+      "borderColor": "borderSecondary",
       "Projects": {
         "background": "bgPrimary",
         "selectionBackground": "bgSelected",
