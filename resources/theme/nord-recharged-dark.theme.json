@@ -27,8 +27,8 @@
     "nord15": "#B48EAD",
     "// Derived UI colors": "",
     "bgPrimary": "nord0",
-    "bgSecondary": "nord1",
-    "bgTertiary": "nord2",
+    "bgSecondary": "bgPrimary",
+    "bgTertiary": "bgPrimary",
     "bgPopup": "bgPrimary",
     "bgHover": "nord2",
     "bgSelected": "nord3",
@@ -39,8 +39,8 @@
     "fgDisabled": "#616E88",
     "accentPrimary": "nord8",
     "accentSecondary": "nord9",
-    "borderPrimary": "nord3",
-    "borderSecondary": "nord2"
+    "borderPrimary": "bgPrimary",
+    "borderSecondary": "bgPrimary"
   },
   "ui": {
     "// ==== MAIN WINDOW & GLOBAL SETTINGS ====": "",
@@ -84,6 +84,11 @@
     "// ==== TOOL WINDOWS ====": "",
     "ToolWindow": {
       "background": "bgPrimary",
+      "Button": {
+        "hoverBackground": "bgPrimary",
+        "selectedBackground": "bgPrimary",
+        "selectedForeground": "fgPrimary"
+      },
       "Header": {
         "background": "headerBlue",
         "inactiveBackground": "bgPrimary",
@@ -92,9 +97,13 @@
       "HeaderTab": {
         "selectedBackground": "bgPrimary",
         "selectedInactiveBackground": "bgPrimary",
-        "hoverBackground": "bgHover",
+        "hoverBackground": "bgPrimary",
         "inactiveUnderlineColor": "nord3",
         "underlineColor": "accentPrimary"
+      },
+      "Stripe": {
+        "background": "bgPrimary",
+        "borderColor": "#00000000"
       }
     },
     "// ==== BUTTONS ====": "",
@@ -133,7 +142,7 @@
       "selectionBackground": "nord10",
       "selectionForeground": "fgPrimary",
       "selectionInactiveBackground": "bgTertiary",
-      "hoverBackground": "bgHover",
+      "hoverBackground": "bgPrimary",
       "rowHeight": 24
     },
     "// ==== LISTS ====": "",
@@ -407,7 +416,7 @@
         "selectionBackground": "bgSelected",
         "selectionInactiveBackground": "bgTertiary",
         "actions": {
-          "background": "bgHover"
+          "background": "bgPrimary"
         }
       }
     },

@@ -27,8 +27,8 @@
     "nord15": "#995E99",
     "// Derived UI colors - Inverted hierarchy": "",
     "bgPrimary": "nord6",
-    "bgSecondary": "nord5",
-    "bgTertiary": "nord4",
+    "bgSecondary": "bgPrimary",
+    "bgTertiary": "bgPrimary",
     "bgPopup": "bgPrimary",
     "bgHover": "nord4",
     "bgSelected": "nord4",
@@ -39,8 +39,8 @@
     "fgDisabled": "#9AA1B0",
     "accentPrimary": "nord8",
     "accentSecondary": "nord9",
-    "borderPrimary": "#C2C8D1",
-    "borderSecondary": "#D0D5DE"
+    "borderPrimary": "bgPrimary",
+    "borderSecondary": "bgPrimary"
   },
   "ui": {
     "// ==== MAIN WINDOW & GLOBAL SETTINGS ====": "",
@@ -84,7 +84,7 @@
       "HeaderTab": {
         "selectedBackground": "bgPrimary",
         "selectedInactiveBackground": "bgPrimary",
-        "hoverBackground": "bgHover",
+        "hoverBackground": "bgPrimary",
         "inactiveUnderlineColor": "borderPrimary",
         "underlineColor": "accentPrimary"
       }
@@ -125,7 +125,7 @@
       "selectionBackground": "nord8",
       "selectionForeground": "nord0",
       "selectionInactiveBackground": "bgTertiary",
-      "hoverBackground": "bgHover",
+      "hoverBackground": "bgPrimary",
       "rowHeight": 24
     },
     "// ==== LISTS ====": "",
@@ -399,7 +399,7 @@
         "selectionBackground": "bgSelected",
         "selectionInactiveBackground": "bgTertiary",
         "actions": {
-          "background": "bgHover"
+          "background": "bgPrimary"
         }
       }
     },
