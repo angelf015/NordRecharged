@@ -178,6 +178,7 @@
     },
     "MainToolbar": {
       "background": "bg_light",
+      "foreground": "fg",
       "borderColor": "#00000000",
       "inactiveBackground": "bg",
       "Dropdown": {
@@ -262,9 +263,9 @@
       "passedEndColor": "dark_green"
     },
     "RunWidget": {
-      "foreground": "#FFFFFF",
-      "separatorColor": "#FFFFFF",
-      "background": "navy_blue",
+      "foreground": "fg",
+      "separatorColor": "fg",
+      "background": "hl2",
       "runningBackground": "dark_green"
     },
     "SearchEverywhere": {
@@ -298,6 +299,7 @@
     },
     "StatusBar": {
       "background": "bg_light",
+      "foreground": "fg",
       "borderColor": "#00000000"
     },
     "TabbedPane": {
