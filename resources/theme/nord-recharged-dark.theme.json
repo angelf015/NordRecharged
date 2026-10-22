@@ -29,10 +29,10 @@
     "bgPrimary": "nord0",
     "bgSecondary": "nord1",
     "bgTertiary": "nord2",
-    "bgPopup": "#323846",
+    "bgPopup": "bgPrimary",
     "bgHover": "nord2",
     "bgSelected": "nord3",
-    "headerBlue": "#4C5A6E",
+    "headerBlue": "bgPrimary",
     "fgPrimary": "nord4",
     "fgSecondary": "nord5",
     "fgBright": "nord6",
@@ -44,262 +44,399 @@
   },
   "ui": {
     "// ==== MAIN WINDOW & GLOBAL SETTINGS ====": "",
-    "MainWindow.background": "bgPrimary",
-    "MainWindow.inactiveBackground": "bgPrimary",
+    "MainWindow": {
+      "background": "bgPrimary",
+      "inactiveBackground": "bgPrimary"
+    },
     "// ==== ISLANDS UI - CRITICAL FOR NEW UI ====": "",
-    "Island.background": "bgSecondary",
-    "Island.borderColor": "borderPrimary",
-    "Island.hoverBackground": "bgHover",
-    "Island.selectedBackground": "bgSelected",
+    "Island": {
+      "background": "bgSecondary",
+      "borderColor": "borderPrimary",
+      "hoverBackground": "bgHover",
+      "selectedBackground": "bgSelected"
+    },
     "// ==== EDITOR ====": "",
-    "Editor.background": "nord0",
-    "EditorPane.background": "nord0",
-    "EditorTabs.background": "bgSecondary",
-    "EditorTabs.borderColor": "borderSecondary",
-    "EditorTabs.underlineColor": "accentPrimary",
-    "EditorTabs.selectedBackground": "nord1",
-    "EditorTabs.inactiveUnderlineColor": "nord3",
-    "FileColor.Blue": "#516276",
-    "FileColor.Green": "#5F6E60",
-    "FileColor.Orange": "#725754",
-    "FileColor.Rose": "#6B4752",
-    "FileColor.Violet": "#665A6E",
-    "FileColor.Yellow": "#725754",
-    "EditorGutter.background": "nord0",
+    "Editor": {
+      "background": "nord0"
+    },
+    "EditorPane": {
+      "background": "nord0"
+    },
+    "EditorTabs": {
+      "background": "bgSecondary",
+      "borderColor": "borderSecondary",
+      "underlineColor": "accentPrimary",
+      "selectedBackground": "nord1",
+      "inactiveUnderlineColor": "nord3"
+    },
+    "FileColor": {
+      "Blue": "#516276",
+      "Green": "#5F6E60",
+      "Orange": "#725754",
+      "Rose": "#6B4752",
+      "Violet": "#665A6E",
+      "Yellow": "#725754"
+    },
+    "EditorGutter": {
+      "background": "nord0"
+    },
     "EditorGutterBackground": "nord0",
     "// ==== TOOL WINDOWS ====": "",
-    "ToolWindow.background": "bgPrimary",
-    "ToolWindow.Header.background": "headerBlue",
-    "ToolWindow.Header.inactiveBackground": "bgTertiary",
-    "ToolWindow.Header.borderColor": "borderSecondary",
-    "ToolWindow.HeaderTab.selectedBackground": "bgTertiary",
-    "ToolWindow.HeaderTab.selectedInactiveBackground": "bgSecondary",
-    "ToolWindow.HeaderTab.hoverBackground": "bgHover",
-    "ToolWindow.HeaderTab.inactiveUnderlineColor": "nord3",
-    "ToolWindow.HeaderTab.underlineColor": "accentPrimary",
+    "ToolWindow": {
+      "background": "bgPrimary",
+      "Header": {
+        "background": "headerBlue",
+        "inactiveBackground": "bgPrimary",
+        "borderColor": "bgPrimary"
+      },
+      "HeaderTab": {
+        "selectedBackground": "bgPrimary",
+        "selectedInactiveBackground": "bgPrimary",
+        "hoverBackground": "bgHover",
+        "inactiveUnderlineColor": "nord3",
+        "underlineColor": "accentPrimary"
+      }
+    },
     "// ==== BUTTONS ====": "",
-    "Button.default.background": "nord8",
-    "Button.default.foreground": "nord0",
-    "Button.default.borderColor": "nord8",
-    "Button.default.focusedBorderColor": "fgPrimary",
-    "Button.default.shadowColor": "#00000000",
-    "Button.background": "nord2",
-    "Button.foreground": "fgPrimary",
-    "Button.borderColor": "borderPrimary",
-    "Button.focusedBorderColor": "accentPrimary",
-    "Button.disabledBackground": "nord1",
-    "Button.disabledBorderColor": "nord2",
-    "Button.disabledText": "fgDisabled",
-    "Button.startBackground": "nord2",
-    "Button.endBackground": "nord2",
-    "Button.startBorderColor": "borderPrimary",
-    "Button.endBorderColor": "borderPrimary",
+    "Button": {
+      "default": {
+        "background": "nord8",
+        "foreground": "nord0",
+        "borderColor": "nord8",
+        "focusedBorderColor": "fgPrimary",
+        "shadowColor": "#00000000"
+      },
+      "background": "nord2",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "focusedBorderColor": "accentPrimary",
+      "disabledBackground": "nord1",
+      "disabledBorderColor": "nord2",
+      "disabledText": "fgDisabled",
+      "startBackground": "nord2",
+      "endBackground": "nord2",
+      "startBorderColor": "borderPrimary",
+      "endBorderColor": "borderPrimary"
+    },
     "// ==== PANELS & SEPARATORS ====": "",
-    "Panel.background": "bgPrimary",
-    "Separator.foreground": "borderSecondary",
-    "Separator.background": "bgPrimary",
+    "Panel": {
+      "background": "bgPrimary"
+    },
+    "Separator": {
+      "foreground": "borderSecondary",
+      "background": "bgPrimary"
+    },
     "// ==== TREE COMPONENTS ====": "",
-    "Tree.background": "bgPrimary",
-    "Tree.foreground": "fgPrimary",
-    "Tree.selectionBackground": "nord10",
-    "Tree.selectionForeground": "fgPrimary",
-    "Tree.selectionInactiveBackground": "bgTertiary",
-    "Tree.hoverBackground": "bgHover",
-    "Tree.rowHeight": 24,
+    "Tree": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "selectionBackground": "nord10",
+      "selectionForeground": "fgPrimary",
+      "selectionInactiveBackground": "bgTertiary",
+      "hoverBackground": "bgHover",
+      "rowHeight": 24
+    },
     "// ==== LISTS ====": "",
-    "List.background": "bgPopup",
-    "List.foreground": "fgPrimary",
-    "List.selectionBackground": "bgSelected",
-    "List.selectionForeground": "fgBright",
-    "List.selectionInactiveBackground": "bgTertiary",
-    "List.hoverBackground": "bgHover",
+    "List": {
+      "background": "bgPopup",
+      "foreground": "fgPrimary",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgBright",
+      "selectionInactiveBackground": "bgTertiary",
+      "hoverBackground": "bgHover"
+    },
     "// ==== TABLES ====": "",
-    "Table.background": "bgPopup",
-    "Table.foreground": "fgPrimary",
-    "Table.gridColor": "borderSecondary",
-    "Table.selectionBackground": "bgSelected",
-    "Table.selectionForeground": "fgBright",
-    "Table.hoverBackground": "bgHover",
-    "Table.lightSelectionBackground": "bgTertiary",
+    "Table": {
+      "background": "bgPopup",
+      "foreground": "fgPrimary",
+      "gridColor": "borderSecondary",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgBright",
+      "hoverBackground": "bgHover",
+      "lightSelectionBackground": "bgTertiary"
+    },
     "// ==== TEXT FIELDS & INPUTS ====": "",
-    "TextField.background": "nord1",
-    "TextField.foreground": "fgPrimary",
-    "TextField.borderColor": "borderPrimary",
-    "TextField.focusedBorderColor": "accentPrimary",
-    "TextField.disabledBackground": "nord0",
-    "TextField.disabledForeground": "fgDisabled",
-    "TextArea.background": "nord1",
-    "TextArea.foreground": "fgPrimary",
-    "TextArea.borderColor": "borderPrimary",
-    "TextArea.focusedBorderColor": "accentPrimary",
+    "TextField": {
+      "background": "nord1",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "focusedBorderColor": "accentPrimary",
+      "disabledBackground": "nord0",
+      "disabledForeground": "fgDisabled"
+    },
+    "TextArea": {
+      "background": "nord1",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "focusedBorderColor": "accentPrimary"
+    },
     "// ==== COMBO BOX ====": "",
-    "ComboBox.background": "nord1",
-    "ComboBox.foreground": "fgPrimary",
-    "ComboBox.ArrowButton.background": "nord2",
-    "ComboBox.ArrowButton.foreground": "fgPrimary",
-    "ComboBox.ArrowButton.nonEditableBackground": "nord2",
-    "ComboBox.borderColor": "borderPrimary",
-    "ComboBox.disabledBackground": "nord0",
-    "ComboBox.disabledForeground": "fgDisabled",
-    "ComboBox.selectionBackground": "nord8",
-    "ComboBox.selectionForeground": "nord0",
+    "ComboBox": {
+      "background": "nord1",
+      "foreground": "fgPrimary",
+      "ArrowButton": {
+        "background": "nord2",
+        "foreground": "fgPrimary",
+        "nonEditableBackground": "nord2"
+      },
+      "borderColor": "borderPrimary",
+      "disabledBackground": "nord0",
+      "disabledForeground": "fgDisabled",
+      "selectionBackground": "nord8",
+      "selectionForeground": "nord0"
+    },
     "// ==== POPUP MENUS ====": "",
-    "PopupMenu.background": "bgPopup",
-    "PopupMenu.foreground": "fgPrimary",
-    "PopupMenu.borderColor": "borderPrimary",
-    "PopupMenu.selectionBackground": "bgSelected",
-    "PopupMenu.selectionForeground": "fgBright",
-    "Menu.background": "bgPopup",
-    "Menu.foreground": "fgPrimary",
-    "Menu.borderColor": "borderPrimary",
-    "Menu.selectionBackground": "bgSelected",
-    "Menu.selectionForeground": "fgBright",
-    "Menu.separatorColor": "borderSecondary",
-    "MenuItem.background": "bgPopup",
-    "MenuItem.foreground": "fgPrimary",
-    "MenuItem.selectionBackground": "bgSelected",
-    "MenuItem.selectionForeground": "fgBright",
-    "MenuItem.disabledForeground": "fgDisabled",
+    "PopupMenu": {
+      "background": "bgPopup",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgBright"
+    },
+    "Menu": {
+      "background": "bgPopup",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgBright",
+      "separatorColor": "borderSecondary"
+    },
+    "MenuItem": {
+      "background": "bgPopup",
+      "foreground": "fgPrimary",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgBright",
+      "disabledForeground": "fgDisabled"
+    },
+    "// ==== MAIN TOOLBAR ====": "",
+    "MainToolbar": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "inactiveBackground": "bgPrimary",
+      "borderColor": "bgPrimary"
+    },
     "// ==== SCROLLBARS ====": "",
-    "ScrollBar.background": "bgPrimary",
-    "ScrollBar.Transparent.thumbColor": "nord2",
-    "ScrollBar.Transparent.thumbBorderColor": "nord2",
-    "ScrollBar.Transparent.hoverThumbColor": "nord3",
-    "ScrollBar.Transparent.hoverThumbBorderColor": "nord3",
-    "ScrollBar.thumbColor": "nord2",
-    "ScrollBar.thumbBorderColor": "nord2",
-    "ScrollBar.hoverThumbColor": "nord3",
-    "ScrollBar.hoverThumbBorderColor": "nord3",
+    "ScrollBar": {
+      "background": "bgPrimary",
+      "Transparent": {
+        "thumbColor": "nord2",
+        "thumbBorderColor": "nord2",
+        "hoverThumbColor": "nord3",
+        "hoverThumbBorderColor": "nord3"
+      },
+      "thumbColor": "nord2",
+      "thumbBorderColor": "nord2",
+      "hoverThumbColor": "nord3",
+      "hoverThumbBorderColor": "nord3"
+    },
     "// ==== TABS ====": "",
-    "TabbedPane.background": "bgPrimary",
-    "TabbedPane.foreground": "fgPrimary",
-    "TabbedPane.underlineColor": "accentPrimary",
-    "TabbedPane.selectedBackground": "bgSecondary",
-    "TabbedPane.hoverColor": "bgHover",
-    "TabbedPane.contentAreaColor": "borderSecondary",
+    "TabbedPane": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "underlineColor": "accentPrimary",
+      "selectedBackground": "bgSecondary",
+      "hoverColor": "bgHover",
+      "contentAreaColor": "borderSecondary"
+    },
     "// ==== LINKS ====": "",
-    "Link.activeForeground": "nord8",
-    "Link.hoverForeground": "nord7",
-    "Link.pressedForeground": "nord10",
-    "Link.visitedForeground": "nord15",
+    "Link": {
+      "activeForeground": "nord8",
+      "hoverForeground": "nord7",
+      "pressedForeground": "nord10",
+      "visitedForeground": "nord15"
+    },
     "// ==== PROGRESS BAR ====": "",
-    "ProgressBar.trackColor": "nord1",
-    "ProgressBar.progressColor": "nord9",
-    "ProgressBar.indeterminateStartColor": "nord8",
-    "ProgressBar.indeterminateEndColor": "nord10",
-    "ProgressBar.failedColor": "nord11",
-    "ProgressBar.failedEndColor": "nord12",
-    "ProgressBar.passedColor": "nord14",
-    "ProgressBar.passedEndColor": "nord13",
+    "ProgressBar": {
+      "trackColor": "nord1",
+      "progressColor": "nord9",
+      "indeterminateStartColor": "nord8",
+      "indeterminateEndColor": "nord10",
+      "failedColor": "nord11",
+      "failedEndColor": "nord12",
+      "passedColor": "nord14",
+      "passedEndColor": "nord13"
+    },
     "// ==== CHECKBOXES & RADIO BUTTONS ====": "",
-    "CheckBox.background": "bgPrimary",
-    "CheckBox.foreground": "fgPrimary",
-    "CheckBox.borderColor1": "borderPrimary",
-    "CheckBox.borderColor2": "borderPrimary",
-    "CheckBox.focusedBorderColor": "accentPrimary",
-    "CheckBox.disabledBorderColor": "nord2",
-    "RadioButton.background": "bgPrimary",
-    "RadioButton.foreground": "fgPrimary",
-    "RadioButton.borderColor": "borderPrimary",
-    "RadioButton.focusedBorderColor": "accentPrimary",
-    "RadioButton.disabledBorderColor": "nord2",
+    "CheckBox": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "borderColor1": "borderPrimary",
+      "borderColor2": "borderPrimary",
+      "focusedBorderColor": "accentPrimary",
+      "disabledBorderColor": "nord2"
+    },
+    "RadioButton": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "focusedBorderColor": "accentPrimary",
+      "disabledBorderColor": "nord2"
+    },
     "// ==== TOOLTIPS ====": "",
-    "ToolTip.background": "nord2",
-    "ToolTip.foreground": "fgBright",
-    "ToolTip.borderColor": "nord3",
-    "ToolTip.Actions.background": "nord3",
-    "ToolTip.Actions.infoForeground": "nord8",
+    "ToolTip": {
+      "background": "nord2",
+      "foreground": "fgBright",
+      "borderColor": "nord3",
+      "Actions": {
+        "background": "nord3",
+        "infoForeground": "nord8"
+      }
+    },
     "// ==== NOTIFICATIONS ====": "",
-    "Notification.background": "bgSecondary",
-    "Notification.foreground": "fgPrimary",
-    "Notification.borderColor": "borderPrimary",
-    "Notification.errorBackground": "nord11",
-    "Notification.errorBorderColor": "nord11",
-    "Notification.errorForeground": "nord6",
-    "Notification.ToolWindow.errorBackground": "nord11",
-    "Notification.ToolWindow.errorBorderColor": "nord11",
-    "Notification.ToolWindow.errorForeground": "nord6",
-    "Notification.ToolWindow.warningBackground": "nord13",
-    "Notification.ToolWindow.warningBorderColor": "nord12",
-    "Notification.ToolWindow.warningForeground": "nord0",
-    "Notification.ToolWindow.informativeBackground": "nord9",
-    "Notification.ToolWindow.informativeBorderColor": "nord10",
-    "Notification.ToolWindow.informativeForeground": "nord6",
+    "Notification": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "errorBackground": "nord11",
+      "errorBorderColor": "nord11",
+      "errorForeground": "nord6",
+      "ToolWindow": {
+        "errorBackground": "nord11",
+        "errorBorderColor": "nord11",
+        "errorForeground": "nord6",
+        "warningBackground": "nord13",
+        "warningBorderColor": "nord12",
+        "warningForeground": "nord0",
+        "informativeBackground": "nord9",
+        "informativeBorderColor": "nord10",
+        "informativeForeground": "nord6"
+      }
+    },
     "// ==== SEARCH & HIGHLIGHTS ====": "",
-    "SearchEverywhere.background": "bgSecondary",
-    "SearchEverywhere.foreground": "fgPrimary",
-    "SearchEverywhere.borderColor": "borderPrimary",
-    "SearchEverywhere.SearchField.background": "nord1",
-    "SearchEverywhere.SearchField.borderColor": "borderPrimary",
-    "SearchEverywhere.Tab.selectedBackground": "bgSelected",
-    "SearchEverywhere.Tab.selectedForeground": "fgBright",
-    "SearchMatch.startBackground": "nord13",
-    "SearchMatch.endBackground": "nord13",
+    "SearchEverywhere": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "borderColor": "borderPrimary",
+      "SearchField": {
+        "background": "bgPrimary",
+        "borderColor": "borderPrimary"
+      },
+      "Tab": {
+        "selectedBackground": "bgSelected",
+        "selectedForeground": "fgBright"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "nord13",
+      "endBackground": "nord13"
+    },
     "// ==== STATUS BAR ====": "",
-    "StatusBar.background": "bgPrimary",
-    "StatusBar.foreground": "fgSecondary",
-    "StatusBar.borderColor": "borderSecondary",
+    "StatusBar": {
+      "background": "bgPrimary",
+      "foreground": "fgSecondary",
+      "borderColor": "bgPrimary"
+    },
     "// ==== DEBUGGER ====": "",
-    "Debugger.Variables.valueForeground": "nord8",
-    "Debugger.Variables.modifyingValueForeground": "nord13",
-    "Debugger.Variables.changedValueForeground": "nord12",
-    "Debugger.Variables.errorMessageForeground": "nord11",
-    "Debugger.Variables.exceptionForeground": "nord11",
+    "Debugger": {
+      "Variables": {
+        "valueForeground": "nord8",
+        "modifyingValueForeground": "nord13",
+        "changedValueForeground": "nord12",
+        "errorMessageForeground": "nord11",
+        "exceptionForeground": "nord11"
+      }
+    },
     "// ==== VERSION CONTROL ====": "",
-    "VersionControl.FileHistory.Commit.selectedBranchBackground": "nord9",
-    "VersionControl.GitLog.localBranchIconColor": "nord9",
-    "VersionControl.GitLog.remoteBranchIconColor": "nord10",
-    "VersionControl.GitLog.tagIconColor": "nord13",
-    "VersionControl.GitLog.headIconColor": "nord8",
-    "VersionControl.Log.Commit.currentBranchBackground": "nord3",
-    "VersionControl.Log.Commit.hoveredBackground": "bgHover",
-    "VersionControl.Log.Commit.unmatchedForeground": "fgDisabled",
-    "VersionControl.RefLabel.backgroundBase": "nord3",
-    "VersionControl.RefLabel.foreground": "fgBright",
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "nord9"
+        }
+      },
+      "GitLog": {
+        "localBranchIconColor": "nord9",
+        "remoteBranchIconColor": "nord10",
+        "tagIconColor": "nord13",
+        "headIconColor": "nord8"
+      },
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "nord3",
+          "hoveredBackground": "bgHover",
+          "unmatchedForeground": "fgDisabled"
+        }
+      },
+      "RefLabel": {
+        "backgroundBase": "nord3",
+        "foreground": "fgBright"
+      }
+    },
     "// ==== DIFF & MERGE ====": "",
-    "DiffView.Editor.gutterBackground": "nord0",
-    "DiffView.Editor.lineNumbers.background": "nord0",
+    "DiffView": {
+      "Editor": {
+        "gutterBackground": "nord0",
+        "lineNumbers": {
+          "background": "nord0"
+        }
+      }
+    },
     "// ==== ACTIONS ====": "",
-    "ActionButton.hoverBackground": "bgHover",
-    "ActionButton.hoverBorderColor": "borderPrimary",
-    "ActionButton.pressedBackground": "bgSelected",
-    "ActionButton.pressedBorderColor": "borderPrimary",
+    "ActionButton": {
+      "hoverBackground": "bgHover",
+      "hoverBorderColor": "borderPrimary",
+      "pressedBackground": "bgSelected",
+      "pressedBorderColor": "borderPrimary"
+    },
     "// ==== BORDERS ====": "",
-    "Borders.color": "borderSecondary",
-    "Borders.ContrastBorderColor": "borderPrimary",
+    "Borders": {
+      "color": "bgPrimary",
+      "ContrastBorderColor": "bgPrimary"
+    },
     "// ==== PLUGINS ====": "",
-    "Plugins.background": "bgPrimary",
-    "Plugins.SearchField.background": "nord1",
-    "Plugins.SearchField.borderColor": "borderPrimary",
-    "Plugins.SectionHeader.background": "bgSecondary",
-    "Plugins.Tab.selectedBackground": "bgSelected",
-    "Plugins.Tab.selectedForeground": "fgBright",
-    "Plugins.Tab.hoverBackground": "bgHover",
+    "Plugins": {
+      "background": "bgPrimary",
+      "SearchField": {
+        "background": "nord1",
+        "borderColor": "borderPrimary"
+      },
+      "SectionHeader": {
+        "background": "bgSecondary"
+      },
+      "Tab": {
+        "selectedBackground": "bgSelected",
+        "selectedForeground": "fgBright",
+        "hoverBackground": "bgHover"
+      }
+    },
     "// ==== WELCOME SCREEN ====": "",
-    "WelcomeScreen.background": "bgPrimary",
-    "WelcomeScreen.borderColor": "borderSecondary",
-    "WelcomeScreen.Projects.background": "bgSecondary",
-    "WelcomeScreen.Projects.selectionBackground": "bgSelected",
-    "WelcomeScreen.Projects.selectionInactiveBackground": "bgTertiary",
-    "WelcomeScreen.Projects.actions.background": "bgHover",
+    "WelcomeScreen": {
+      "background": "bgPrimary",
+      "borderColor": "bgPrimary",
+      "Projects": {
+        "background": "bgPrimary",
+        "selectionBackground": "bgSelected",
+        "selectionInactiveBackground": "bgTertiary",
+        "actions": {
+          "background": "bgHover"
+        }
+      }
+    },
     "// ==== LIVE TEMPLATES ====": "",
-    "LiveTemplate.shortcutForeground": "nord13",
+    "LiveTemplate": {
+      "shortcutForeground": "nord13"
+    },
     "// ==== CODE LENS ====": "",
-    "CodeLens.borderColor": "borderSecondary",
+    "CodeLens": {
+      "borderColor": "borderSecondary"
+    },
     "// ==== INLINE COMPLETION ====": "",
-    "CompletionPopup.background": "bgPopup",
-    "CompletionPopup.foreground": "fgPrimary",
-    "CompletionPopup.selectionBackground": "bgSelected",
-    "CompletionPopup.selectionForeground": "fgBright",
-    "CompletionPopup.selectionInactiveBackground": "bgTertiary",
-    "CompletionPopup.matchForeground": "nord8",
+    "CompletionPopup": {
+      "background": "bgPopup",
+      "foreground": "fgPrimary",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgBright",
+      "selectionInactiveBackground": "bgTertiary",
+      "matchForeground": "nord8"
+    },
     "// ==== RUN/DEBUG CONFIGURATION ====": "",
-    "RunWidget.background": "nord1",
-    "RunWidget.foreground": "fgPrimary",
-    "RunWidget.hoverBackground": "bgHover",
-    "RunWidget.pressedBackground": "bgSelected",
-    "RunWidget.runningBackground": "nord14",
-    "RunWidget.stopBackground": "nord11"
+    "RunWidget": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "hoverBackground": "bgHover",
+      "pressedBackground": "bgSelected",
+      "runningBackground": "nord14",
+      "stopBackground": "nord11"
+    }
   },
   "icons": {
     "ColorPalette": {

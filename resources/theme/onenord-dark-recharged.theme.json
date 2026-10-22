@@ -48,8 +48,8 @@
       "acceleratorForeground": "gray",
       "acceleratorSelectionForeground": "fg",
       "errorForeground": "dark_red",
-      "Borders.ContrastBorderColor": "hl2",
-      "borderColor": "hl0",
+      "Borders.ContrastBorderColor": "bg",
+      "borderColor": "bg",
       "disabledBorderColor": "hl1",
       "focusColor": "dark_blue",
       "focusedBorderColor": "dark_blue",
@@ -62,8 +62,8 @@
       "pressedBorderColor": "bg"
     },
     "Borders": {
-      "color": "hl2",
-      "ContrastBorderColor": "hl2"
+      "color": "bg",
+      "ContrastBorderColor": "bg"
     },
     "Button": {
       "startBackground": "hl3",
