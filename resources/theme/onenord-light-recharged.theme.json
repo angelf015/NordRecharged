@@ -177,7 +177,7 @@
       "selectionForeground": "fg"
     },
     "MainToolbar": {
-      "background": "bg_light",
+      "background": "bg",
       "foreground": "fg",
       "borderColor": "#00000000",
       "inactiveBackground": "bg",
@@ -198,14 +198,14 @@
       "usedBackground": "light_gray"
     },
     "Notification": {
-      "background": "hl0",
+      "background": "bg",
       "borderColor": "hl4",
       "MoreButton": {
         "foreground": "gray"
       },
       "ToolWindow": {
         "informativeForeground": "fg",
-        "informativeBackground": "hl2",
+        "informativeBackground": "bg",
         "informativeBorderColor": "light_gray"
       }
     },
@@ -243,7 +243,7 @@
     },
     "Popup": {
       "borderColor": "hl2",
-      "Header.activeBackground": "hl1",
+      "Header.activeBackground": "bg",
       "Header.inactiveBackground": "bg",
       "separatorColor": "hl1",
       "separatorForeground": "gray",
@@ -298,7 +298,7 @@
       "errorForeground": "dark_red"
     },
     "StatusBar": {
-      "background": "bg_light",
+      "background": "bg",
       "foreground": "fg",
       "borderColor": "#00000000"
     },
@@ -353,7 +353,7 @@
         "hoverBackground": "hl2"
       },
       "Stripe": {
-        "background": "bg_light",
+        "background": "bg",
         "borderColor": "#00000000"
       }
     },
