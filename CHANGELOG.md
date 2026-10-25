@@ -5,7 +5,7 @@ All notable changes to the Nord Recharged theme plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.5.0] - 2026-10-21
+## [1.5.1] - 2026-10-21
 
 ### Changed
 - **Nord UI Model Refactor**: `nord-recharged-dark.theme.json` and `nord-recharged-light.theme.json` were migrated from flat dotted UI keys to nested UI objects to match the OneNord configuration model and simplify future maintenance
@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Technical
 - Removed pseudo-comment JSON keys (`"// ...": ""`) from Nord theme JSON files used for Marketplace packaging
-- Version bumped to 1.5.0 for JetBrains Marketplace publication
+- Version bumped to 1.5.1 for JetBrains Marketplace publication
 - Compatible with IntelliJ IDEA 2023.3 - 2026.3 (build 233 - 263.*)
 
 ---
@@ -152,7 +152,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[1.5.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.5.0
+[1.5.1]: https://github.com/angelf015/NordRecharged/releases/tag/v1.5.1
 [1.4.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.4.0
 [1.3.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.3.0
 [1.2.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.2.0
