@@ -8,7 +8,7 @@
   <name>Nord Recharged</name>
   <category>UI</category>
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-  <vendor email="angelf015.lf@gmail.com" url="https://github.com/angelf015/NordRecharged">Nord Recharged Team</vendor>
+  <vendor email="angelf015.lf@gmail.com" url="https://github.com/angelf015/NordRecharged">NeoPlus</vendor>
   <idea-version since-build="233" until-build="263.*" />
   <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
