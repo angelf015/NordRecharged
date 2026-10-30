@@ -78,7 +78,7 @@
       "background": "bgSecondary",
       "borderColor": "borderSecondary",
       "underlineColor": "accentPrimary",
-      "selectedBackground": "nord1",
+      "selectedBackground": "nord0",
       "inactiveUnderlineColor": "nord3"
     },
     "FileColor": {
@@ -97,7 +97,7 @@
       "background": "bgPrimary",
       "Button": {
         "hoverBackground": "bgHover",
-        "selectedBackground": "bgHover",
+        "selectedBackground": "bgSelected",
         "selectedForeground": "fgPrimary"
       },
       "Header": {
@@ -148,7 +148,7 @@
       "background": "bgPrimary",
       "foreground": "fgPrimary",
       "selectionBackground": "nord10",
-      "selectionForeground": "fgPrimary",
+      "selectionForeground": "fgBright",
       "selectionInactiveBackground": "bgTertiary",
       "hoverBackground": "bgHover",
       "hoverInactiveBackground": "bgHover",
@@ -285,18 +285,18 @@
       "borderColor": "nord3",
       "Actions": {
         "background": "nord3",
-        "infoForeground": "nord8"
+        "infoForeground": "fgBright"
       }
     },
     "Notification": {
       "background": "bgPrimary",
       "foreground": "fgPrimary",
       "borderColor": "borderPrimary",
-      "errorBackground": "nord11",
+      "errorBackground": "#4C3035",
       "errorBorderColor": "nord11",
       "errorForeground": "nord6",
       "ToolWindow": {
-        "errorBackground": "nord11",
+        "errorBackground": "#4C3035",
         "errorBorderColor": "nord11",
         "errorForeground": "nord6",
         "warningBackground": "nord13",
@@ -304,7 +304,7 @@
         "warningForeground": "nord0",
         "informativeBackground": "nord9",
         "informativeBorderColor": "nord10",
-        "informativeForeground": "nord6"
+        "informativeForeground": "nord0"
       }
     },
     "SearchEverywhere": {
@@ -322,7 +322,8 @@
     },
     "SearchMatch": {
       "startBackground": "nord13",
-      "endBackground": "nord13"
+      "endBackground": "nord13",
+      "foreground": "nord0"
     },
     "StatusBar": {
       "background": "bgPrimary",
@@ -426,8 +427,8 @@
       "foreground": "fgPrimary",
       "hoverBackground": "bgHover",
       "pressedBackground": "bgSelected",
-      "runningBackground": "nord14",
-      "stopBackground": "nord11"
+      "runningBackground": "#2F3F33",
+      "stopBackground": "#4C3035"
     }
   },
   "icons": {

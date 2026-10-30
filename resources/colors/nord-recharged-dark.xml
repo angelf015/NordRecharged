@@ -73,8 +73,8 @@
     <attributes>
         <option name="EXCLUDED_FROM_COMPILE">
             <value>
-                <option name="BACKGROUND" value="ECEFF4"/>
-                <option name="FOREGROUND" value="ECEFF4"/>
+                <option name="BACKGROUND" value="3b4252"/>
+                <option name="FOREGROUND" value="616e88"/>
             </value>
         </option>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
@@ -166,7 +166,7 @@
         </option>
         <option name="CONSOLE_DARKGRAY_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="4c566a"/>
+                <option name="FOREGROUND" value="434c5e"/>
             </value>
         </option>
         <option name="CONSOLE_ERROR_OUTPUT">
@@ -192,13 +192,13 @@
         </option>
         <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="81a1c1"/>
+                <option name="FOREGROUND" value="b48ead"/>
                 <option name="FONT_TYPE" value="1"/>
             </value>
         </option>
         <option name="CONSOLE_MAGENTA_OUTPUT">
             <value>
-                <option name="FOREGROUND" value="81a1c1"/>
+                <option name="FOREGROUND" value="b48ead"/>
             </value>
         </option>
         <option name="CONSOLE_NORMAL_OUTPUT">
@@ -1382,6 +1382,66 @@
         <option name="org.toml.BOOLEAN">
             <value>
                 <option name="FOREGROUND" value="b48ead"/>
+            </value>
+        </option>
+        <option name="DEFAULT_LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="d8dee9"/>
+            </value>
+        </option>
+        <option name="CLASS_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="8fbcbb"/>
+            </value>
+        </option>
+        <option name="METHOD_DECLARATION_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="88c0d0"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="STATIC_FINAL_FIELD_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="b48ead"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="Braces">
+            <value>
+                <option name="FOREGROUND" value="81a1c1"/>
+            </value>
+        </option>
+        <option name="BASH.LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="616e88"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="CSS.COMMENT">
+            <value>
+                <option name="FOREGROUND" value="616e88"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="HTML_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="616e88"/>
+                <option name="FONT_TYPE" value="2"/>
+            </value>
+        </option>
+        <option name="JSP_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="8fbcbb"/>
+            </value>
+        </option>
+        <option name="JSP_SCRIPTING_BACKGROUND">
+            <value>
+                <option name="BACKGROUND" value="2e3440"/>
+            </value>
+        </option>
+        <option name="PHP_CLASS">
+            <value>
+                <option name="FOREGROUND" value="8fbcbb"/>
             </value>
         </option>
     </attributes>

@@ -19,11 +19,12 @@
     <description><![CDATA[
         <h2>Nord Recharged - Beautiful Arctic-inspired Themes for IntelliJ</h2>
         
-        <p>Four carefully crafted themes combining the elegance of the <strong>Nord color palette</strong> with modern UI design. Perfect for developers who love clean, minimal aesthetics with optimal readability.</p>
+        <p>Five carefully crafted themes combining the elegance of the <strong>Nord color palette</strong> with modern UI design. Perfect for developers who love clean, minimal aesthetics with optimal readability.</p>
         
         <h3>What's Included:</h3>
         <ul>
             <li><strong>Nord Recharged Dark</strong> - Pure Nord dark theme with Polar Night backgrounds</li>
+            <li><strong>Nordic Recharged Dark</strong> - Nordic (Neovim) palette with darker backgrounds and Aurora accents</li>
             <li><strong>Nord Recharged Light</strong> - Clean light variant perfect for bright environments</li>
             <li><strong>OneNord Dark Recharged</strong> - One Dark style with Nord colors (purple keywords, yellow classes)</li>
             <li><strong>OneNord Light Recharged</strong> - One Light style with vibrant Nord palette</li>
@@ -31,9 +32,9 @@
         
         <h3>Key Features:</h3>
         <ul>
-            <li><strong>100% Official Palettes:</strong> Authentic Nord colors + OneNord colors by @rmehri01</li>
+            <li><strong>100% Official Palettes:</strong> Authentic Nord colors, the OneNord palette by @rmehri01, and the Nordic (Neovim) palette</li>
             <li><strong>Islands UI Support:</strong> Fully optimized for JetBrains' modern UI</li>
-            <li><strong>Enhanced Readability:</strong> Keywords in bold, comments in italic</li>
+            <li><strong>Enhanced Readability:</strong> Theme-specific typography and italic comments</li>
             <li><strong>Comprehensive Java Syntax:</strong> Optimized highlighting attributes</li>
             <li><strong>Multi-Language:</strong> Java, Kotlin, Python, JavaScript, TypeScript, and more</li>
             <li><strong>Eye-Friendly:</strong> Optimized contrast for long coding sessions</li>
@@ -101,6 +102,11 @@
         <themeProvider
                 id="com.nordrecharged.dark"
                 path="/theme/nord-recharged-dark.theme.json"/>
+
+        <!-- Nordic Recharged Dark - Nordic (Neovim) palette -->
+        <themeProvider
+                id="com.nordrecharged.nordic.dark"
+                path="/theme/nordic-recharged-dark.theme.json"/>
         
         <!-- Nord Recharged Light - Pure Nord Light Theme -->
         <themeProvider

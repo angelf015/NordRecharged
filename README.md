@@ -10,7 +10,7 @@
 [![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3+-81A1C1.svg?style=flat-square)](https://www.jetbrains.com/idea/)
 [![License](https://img.shields.io/badge/license-MIT-A3BE8C.svg?style=flat-square)](LICENSE)
 
-_Four carefully crafted themes combining the elegance of Nord with the familiarity of One Dark._
+_Five carefully crafted themes combining the elegance of Nord with the familiarity of One Dark and the warmth of Nordic._
 
 [Features](#features) • [Themes](#themes) • [Screenshots](#screenshots) • [Installation](#-installation) • [Usage](#-usage) • [Theme Comparison](#theme-comparison) • [Color Palette](#color-palette) • [Compatibility](#compatibility) • [Contributing](#contributing) • [Troubleshooting](#troubleshooting) • [Project Structure](#project-structure) • [Credits & Resources](#credits--resources)
 
@@ -20,10 +20,10 @@ _Four carefully crafted themes combining the elegance of Nord with the familiari
 
 ## Features
 
-Nord Recharged brings you four complete themes covering both sides of the spectrum:
+Nord Recharged brings you five complete themes covering both sides of the spectrum:
 
-- **4 complete themes** - Dark and light variants for both the Nord and OneNord styles.
-- **100% official palettes** - Built with the genuine Nord colors plus the official OneNord palette.
+- **5 complete themes** - Dark and light variants for Nord and OneNord, plus the Nordic dark variant.
+- **100% official palettes** - Built with the genuine Nord colors, the official OneNord palette, and the Nordic Neovim palette.
 - **Islands UI compatible** - Fully tuned for JetBrains' modern New UI.
 - **Java optimized** - Dedicated Java syntax attributes configured out of the box.
 - **Beyond Java** - Kotlin, Python, JavaScript, TypeScript, XML/HTML, and more.
@@ -53,6 +53,16 @@ Nord Recharged brings you four complete themes covering both sides of the spectr
 - Same color philosophy as the dark variant.
 - Optimized contrast for light backgrounds.
 - Easy on the eyes in bright conditions.
+
+### Nordic Recharged Dark
+
+> Nordic (Neovim) palette with darker backgrounds and Aurora accents.
+
+**Perfect for:** users who want the Nordic Neovim look in IntelliJ.
+
+- Darker Polar Night backgrounds (`#242933`, `#191D24`).
+- Orange keywords, yellow types, and blue functions.
+- Comments, parameters, and delimiters in italic.
 
 ### OneNord Dark Recharged
 
@@ -171,7 +181,7 @@ Each theme is made of two parts, and both should be active for the full experien
 ### Activating the UI Theme
 
 1. Go to **Settings** (`Ctrl+Alt+S` / `Cmd+,`) → **Appearance & Behavior** → **Appearance**.
-2. Under **Theme**, select one of: *Nord Recharged Dark*, *Nord Recharged Light*, *OneNord Dark Recharged*, or *OneNord Light Recharged*.
+2. Under **Theme**, select one of: *Nord Recharged Dark*, *Nordic Recharged Dark*, *Nord Recharged Light*, *OneNord Dark Recharged*, or *OneNord Light Recharged*.
 3. The UI usually updates right away; restart if any panel looks off.
 
 > **Tip:** If you use JetBrains' Islands (New UI), these themes are fully optimized for it - enable it in *Settings → Appearance → New UI*.
@@ -188,14 +198,14 @@ Each theme is made of two parts, and both should be active for the full experien
 
 ## Theme Comparison
 
-| Feature        | Nord Recharged        | OneNord Recharged      |
-| -------------- | --------------------- | ---------------------- |
-| **Philosophy** | Pure Nord, minimalist | One Dark + Nord fusion |
-| **Keywords**   | Blue `#81A1C1`        | Purple `#B589D3`       |
-| **Classes**    | Cyan `#8FBCBB`        | Yellow `#EBCB8B`       |
-| **Variables**  | Default text          | Red `#D57780`          |
-| **Best For**   | Nord purists          | One Dark users         |
-| **Feeling**    | Calm, focused         | Vibrant, expressive    |
+| Feature        | Nord Recharged        | Nordic Recharged             | OneNord Recharged      |
+| -------------- | --------------------- | ---------------------------- | ---------------------- |
+| **Philosophy** | Pure Nord, minimalist | Nordic Neovim, darker/Aurora | One Dark + Nord fusion |
+| **Keywords**   | Blue `#81A1C1`        | Orange `#D08770`             | Purple `#B589D3`       |
+| **Classes**    | Cyan `#8FBCBB`        | Yellow `#EBCB8B`             | Yellow `#EBCB8B`       |
+| **Variables**  | Default text          | Default text                 | Red `#D57780`          |
+| **Best For**   | Nord purists          | Nordic Neovim users          | One Dark users         |
+| **Feeling**    | Calm, focused         | Warm, modern                 | Vibrant, expressive    |
 
 ---
 
