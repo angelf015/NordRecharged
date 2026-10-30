@@ -38,6 +38,26 @@
     "borderSecondary": "bgPrimary"
   },
   "ui": {
+    "*": {
+      "background": "bgPrimary",
+      "foreground": "fgPrimary",
+      "infoForeground": "fgDisabled",
+      "selectionBackground": "bgSelected",
+      "selectionForeground": "fgPrimary",
+      "selectionInactiveBackground": "bgPrimary",
+      "disabledText": "fgDisabled",
+      "disabledBackground": "bgPrimary",
+      "inactiveBackground": "bgPrimary",
+      "acceleratorForeground": "fgDisabled",
+      "acceleratorSelectionForeground": "fgPrimary",
+      "errorForeground": "nord11",
+      "Borders.ContrastBorderColor": "bgPrimary",
+      "borderColor": "bgPrimary",
+      "disabledBorderColor": "bgPrimary",
+      "focusColor": "accentPrimary",
+      "focusedBorderColor": "accentPrimary",
+      "separatorColor": "borderSecondary"
+    },
     "MainWindow": {
       "background": "bgSecondary",
       "inactiveBackground": "bgSecondary"
@@ -58,8 +78,16 @@
       "background": "bgSecondary",
       "borderColor": "borderSecondary",
       "underlineColor": "accentPrimary",
-      "selectedBackground": "nord5",
-      "inactiveUnderlineColor": "borderPrimary"
+      "selectedBackground": "nord6",
+      "inactiveUnderlineColor": "nord4"
+    },
+    "FileColor": {
+      "Blue": "#CEDBEB",
+      "Green": "#D2E1D3",
+      "Orange": "#E5D1D0",
+      "Rose": "#E3CDD4",
+      "Violet": "#D9D2E6",
+      "Yellow": "#E1D9CC"
     },
     "EditorGutter": {
       "background": "nord6"
@@ -67,6 +95,11 @@
     "EditorGutterBackground": "nord6",
     "ToolWindow": {
       "background": "bgPrimary",
+      "Button": {
+        "hoverBackground": "bgHover",
+        "selectedBackground": "bgSelected",
+        "selectedForeground": "fgPrimary"
+      },
       "Header": {
         "background": "headerBlue",
         "inactiveBackground": "bgPrimary",
@@ -75,9 +108,13 @@
       "HeaderTab": {
         "selectedBackground": "bgPrimary",
         "selectedInactiveBackground": "bgPrimary",
-        "hoverBackground": "bgPrimary",
-        "inactiveUnderlineColor": "borderPrimary",
+        "hoverBackground": "bgHover",
+        "inactiveUnderlineColor": "nord4",
         "underlineColor": "accentPrimary"
+      },
+      "Stripe": {
+        "background": "bgPrimary",
+        "borderColor": "#00000000"
       }
     },
     "Button": {
@@ -113,7 +150,8 @@
       "selectionBackground": "nord8",
       "selectionForeground": "nord0",
       "selectionInactiveBackground": "bgTertiary",
-      "hoverBackground": "bgPrimary",
+      "hoverBackground": "bgHover",
+      "hoverInactiveBackground": "bgHover",
       "rowHeight": 24
     },
     "List": {
@@ -247,7 +285,7 @@
       "borderColor": "borderPrimary",
       "Actions": {
         "background": "nord5",
-        "infoForeground": "nord8"
+        "infoForeground": "fgBright"
       }
     },
     "Notification": {
@@ -266,7 +304,7 @@
         "warningForeground": "nord0",
         "informativeBackground": "nord9",
         "informativeBorderColor": "nord10",
-        "informativeForeground": "nord6"
+        "informativeForeground": "nord0"
       }
     },
     "SearchEverywhere": {
@@ -284,7 +322,8 @@
     },
     "SearchMatch": {
       "startBackground": "nord13",
-      "endBackground": "nord13"
+      "endBackground": "nord13",
+      "foreground": "nord0"
     },
     "StatusBar": {
       "background": "bgPrimary",
@@ -388,8 +427,8 @@
       "foreground": "fgPrimary",
       "hoverBackground": "bgHover",
       "pressedBackground": "bgSelected",
-      "runningBackground": "nord14",
-      "stopBackground": "nord11"
+      "runningBackground": "#DCEFE0",
+      "stopBackground": "#F5E2E5"
     }
   },
   "icons": {

@@ -2432,5 +2432,60 @@
                 <option name="FOREGROUND" value="ebcb8b"/>
             </value>
         </option>
+        <option name="CLASS_NAME_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="ebcb8b"/>
+            </value>
+        </option>
+        <option name="CSS.COMMENT">
+            <value>
+                <option name="FOREGROUND" value="6c7a96"/>
+            </value>
+        </option>
+        <option name="DEFAULT_INSTANCE_METHOD">
+            <value>
+                <option name="FOREGROUND" value="81a1c1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_LOCAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="c8d0e0"/>
+            </value>
+        </option>
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="81a1c1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_PARENTHS">
+            <value>
+                <option name="FOREGROUND" value="81a1c1"/>
+            </value>
+        </option>
+        <option name="DEFAULT_PREDEFINED_SYMBOL">
+            <value>
+                <option name="FOREGROUND" value="88c0d0"/>
+            </value>
+        </option>
+        <option name="DEFAULT_TAG">
+            <value>
+                <option name="FOREGROUND" value="81a1c1"/>
+            </value>
+        </option>
+        <option name="HTML_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="6c7a96"/>
+            </value>
+        </option>
+        <option name="METHOD_DECLARATION_ATTRIBUTES">
+            <value>
+                <option name="FOREGROUND" value="81a1c1"/>
+            </value>
+        </option>
+        <option name="SQL_COLUMN">
+            <value>
+                <option name="FOREGROUND" value="c8d0e0"/>
+            </value>
+        </option>
     </attributes>
 </scheme>
