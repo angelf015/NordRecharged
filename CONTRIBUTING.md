@@ -54,7 +54,7 @@ Before creating bug reports, please check existing issues. When you create a bug
 
 **Environment:**
 - IntelliJ IDEA 2024.1
-- Nord Recharged 1.0.0
+- Nord Recharged 1.6.0
 - Windows 11
 ```
 
@@ -106,7 +106,7 @@ cd NordRecharged
 ./gradlew buildPlugin
 
 # 3. The plugin will be in:
-ls build/distributions/NordRecharged-1.1.0.zip
+ls build/distributions/NordRecharged-1.6.0.zip
 
 # 4. Install in IntelliJ for testing
 # Settings → Plugins → Install from Disk → Select ZIP
@@ -250,7 +250,7 @@ git commit -m "WIP"
 1. **Test thoroughly**
    - Build the plugin
    - Install in IntelliJ
-   - Test all 4 themes
+   - Test all 5 themes
    - Verify colors in Java files
 
 2. **Update documentation**
@@ -277,7 +277,7 @@ Brief description of what this PR does
 
 ## Testing
 - [ ] Tested in IntelliJ IDEA 2023.3+
-- [ ] Verified all 4 themes still work
+- [ ] Verified all 5 themes still work
 - [ ] Checked Java syntax highlighting
 - [ ] Screenshots attached (if visual change)
 

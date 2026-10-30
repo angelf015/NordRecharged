@@ -4,7 +4,7 @@
 
 ### Beautiful Arctic-inspired color themes for IntelliJ IDEA
 
-[![Version](https://img.shields.io/badge/version-1.4.0-88C0D0.svg?style=flat-square)](https://github.com/angelf015/NordRecharged/releases)
+[![Version](https://img.shields.io/badge/version-1.6.0-88C0D0.svg?style=flat-square)](https://github.com/angelf015/NordRecharged/releases)
 [![Marketplace Downloads](https://img.shields.io/jetbrains/plugin/d/33028-88C0D0.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/33028-nord-recharged)
 [![Rating](https://img.shields.io/jetbrains/plugin/r/rating/33028-81A1C1.svg?style=flat-square)](https://plugins.jetbrains.com/plugin/33028-nord-recharged)
 [![IntelliJ](https://img.shields.io/badge/IntelliJ-2023.3+-81A1C1.svg?style=flat-square)](https://www.jetbrains.com/idea/)
@@ -164,7 +164,7 @@ cd NordRecharged
 ./gradlew buildPlugin
 
 # The plugin will be in:
-# build/distributions/NordRecharged-1.4.0.zip
+# build/distributions/NordRecharged-1.6.0.zip
 ```
 
 Then follow steps 2-6 from Method 1.
@@ -303,11 +303,13 @@ NordRecharged/
 │   ├── theme/                  # UI themes (.theme.json)
 │   │   ├── nord-recharged-dark.theme.json
 │   │   ├── nord-recharged-light.theme.json
+│   │   ├── nordic-recharged-dark.theme.json
 │   │   ├── onenord-dark-recharged.theme.json
 │   │   └── onenord-light-recharged.theme.json
 │   └── colors/                 # Editor schemes (.xml)
 │       ├── nord-recharged-dark.xml
 │       ├── nord-recharged-light.xml
+│       ├── nordic-recharged-dark.xml
 │       ├── onenord-dark-recharged.xml
 │       └── onenord-light-recharged.xml
 ├── build.gradle.kts            # Build configuration
@@ -320,6 +322,7 @@ NordRecharged/
 
 - **Nord Palette:** [Arctic Ice Studio](https://www.nordtheme.com) & [Sven Greb](https://github.com/arcticicestudio/nord)
 - **OneNord:** [Ryan Mehri](https://github.com/rmehri01/onenord-jetbrains)
+- **Nordic:** [AlexvZyl](https://github.com/AlexvZyl/nordic.nvim)
 - **One Dark:** [Atom Editor](https://github.com/atom/one-dark-syntax)
 - **IntelliJ Platform SDK:** [JetBrains](https://plugins.jetbrains.com/docs/intellij/)
 

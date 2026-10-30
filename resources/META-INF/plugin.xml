@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.nordrecharged.themes</id>
-    <version>1.5.1</version>
+    <version>1.6.0</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-name -->
@@ -18,9 +18,9 @@
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/best-practices-for-listing.html#plugin-description -->
     <description><![CDATA[
         <h2>Nord Recharged - Beautiful Arctic-inspired Themes for IntelliJ</h2>
-        
+
         <p>Five carefully crafted themes combining the elegance of the <strong>Nord color palette</strong> with modern UI design. Perfect for developers who love clean, minimal aesthetics with optimal readability.</p>
-        
+
         <h3>What's Included:</h3>
         <ul>
             <li><strong>Nord Recharged Dark</strong> - Pure Nord dark theme with Polar Night backgrounds</li>
@@ -29,7 +29,7 @@
             <li><strong>OneNord Dark Recharged</strong> - One Dark style with Nord colors (purple keywords, yellow classes)</li>
             <li><strong>OneNord Light Recharged</strong> - One Light style with vibrant Nord palette</li>
         </ul>
-        
+
         <h3>Key Features:</h3>
         <ul>
             <li><strong>100% Official Palettes:</strong> Authentic Nord colors, the OneNord palette by @rmehri01, and the Nordic (Neovim) palette</li>
@@ -40,7 +40,7 @@
             <li><strong>Eye-Friendly:</strong> Optimized contrast for long coding sessions</li>
             <li><strong>Subtle Accents:</strong> Blue-tinted headers for visual identity</li>
         </ul>
-        
+
         <h3>Perfect For:</h3>
         <ul>
             <li>Nord theme enthusiasts</li>
@@ -48,7 +48,7 @@
             <li>Anyone seeking elegant, minimal themes</li>
             <li>Projects requiring extended focus time</li>
         </ul>
-        
+
         <h3>Installation:</h3>
         <ol>
             <li>Install this plugin</li>
@@ -56,38 +56,47 @@
             <li>Go to <strong>Settings → Appearance & Behavior → Appearance → Theme</strong></li>
             <li>Select your preferred Nord Recharged theme</li>
         </ol>
-        
+
         <h3>Color Philosophy:</h3>
         <p><strong>Nord Recharged:</strong> Minimalist with subtle blue accents, cyan selections<br>
+        <strong>Nordic Recharged:</strong> Darker Polar Night surfaces with Aurora accents<br>
         <strong>OneNord Recharged:</strong> More colorful with purple keywords, yellow classes, red variables</p>
-        
+
         <h3>Links:</h3>
         <ul>
             <li><a href="https://github.com/angelf015/NordRecharged">GitHub Repository</a></li>
             <li><a href="https://github.com/angelf015/NordRecharged/issues">Report Issues</a></li>
             <li><a href="https://github.com/nordtheme/nord">Nord Color Palette</a></li>
         </ul>
-        
+
         <p><em>Inspired by Nord JetBrains and OneNord JetBrains themes. Created with care for the community.</em></p>
     ]]></description>
 
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-        <h3>Version 1.5.1 (2026-10-21)</h3>
+        <h3>Version 1.6.0 (2026-10-30)</h3>
+
+        <h4>Added</h4>
+        <ul>
+            <li><strong>Nordic Recharged Dark</strong> - new theme based on the Nordic Neovim palette with darker backgrounds, Aurora accents, and Nordic typography.</li>
+            <li><strong>Nord Recharged Light parity</strong> - the light scheme now mirrors the full Nord Dark structure, including all base attributes and UI keys.</li>
+            <li><strong>OneNord Light parity</strong> - the light scheme now mirrors the updated OneNord Dark structure.</li>
+        </ul>
 
         <h4>Changed</h4>
         <ul>
-            <li><strong>Nord UI model migrated to nested JSON</strong> in <em>Nord Recharged Dark</em> and <em>Nord Recharged Light</em> for consistency with OneNord themes and easier maintenance.</li>
-            <li><strong>Editor/UI surface alignment</strong> across menus, popups, tool windows, main/status bars, Search Everywhere and notifications for a consistent background model.</li>
-            <li><strong>Island hierarchy refined</strong> in Nord Dark and Nord Light to restore clear panel layering between main window and islands.</li>
+            <li><strong>Nord Dark/Light refresh</strong> - updated editor layout, attributes, UI surfaces, and contrast while keeping the official Nord palette.</li>
+            <li><strong>OneNord Dark/Light refresh</strong> - updated One Dark Vivid configuration, typography, and UI structure.</li>
+            <li><strong>Theme registration</strong> - Nordic Recharged Dark is registered in the plugin descriptor.</li>
         </ul>
 
         <h4>Fixed</h4>
         <ul>
-            <li><strong>Nord Dark side menu rendering</strong> by adding explicit ToolWindow stripe/button/header overrides to avoid parent-theme fallback colors.</li>
-            <li><strong>Window separation visibility</strong> with subtle border/separator rebalancing after UI background unification.</li>
-            <li><strong>Theme JSON cleanup</strong> by removing pseudo-comment keys used during development.</li>
+            <li><strong>Indent guides</strong> - regular, visual, selected-scope, and matched-brace indent guides are now visible in Nord Dark and Nord Light.</li>
+            <li><strong>Missing base attributes</strong> - completed inherited attributes for both Nord themes.</li>
+            <li><strong>Console colors</strong> - corrected magenta output in the Nord themes.</li>
+            <li><strong>Contrast</strong> - improved notification, tooltip, search match, run widget, and selection contrast.</li>
         </ul>
 
         <p><a href="https://github.com/angelf015/NordRecharged/blob/main/CHANGELOG.md">Full Changelog on GitHub</a></p>
@@ -107,17 +116,17 @@
         <themeProvider
                 id="com.nordrecharged.nordic.dark"
                 path="/theme/nordic-recharged-dark.theme.json"/>
-        
+
         <!-- Nord Recharged Light - Pure Nord Light Theme -->
         <themeProvider
                 id="com.nordrecharged.light"
                 path="/theme/nord-recharged-light.theme.json"/>
-        
+
         <!-- OneNord Dark Recharged - One Dark with Nord Colors -->
         <themeProvider
                 id="com.nordrecharged.onenord.dark"
                 path="/theme/onenord-dark-recharged.theme.json"/>
-        
+
         <!-- OneNord Light Recharged - One Light with Nord Colors -->
         <themeProvider
                 id="com.nordrecharged.onenord.light"

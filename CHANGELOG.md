@@ -5,6 +5,33 @@ All notable changes to the Nord Recharged theme plugin will be documented in thi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.0] - 2026-10-30
+
+### Added
+- **Nordic Recharged Dark**: new dark theme based on the Nordic Neovim palette, with darker Polar Night surfaces, Aurora accents, orange keywords, yellow types, blue functions, and Nordic typography
+- **Nordic theme registration**: the new theme is exposed through the plugin descriptor
+- **Nord Light parity**: `nord-recharged-light.xml` now mirrors the full `nord-recharged-dark.xml` structure (328 attributes, all base attributes, and the same JSON key set)
+- **OneNord Light parity**: `onenord-light-recharged.xml` now mirrors the updated OneNord Dark structure
+
+### Changed
+- **Nord Dark/Light**: refreshed editor schemes and UI palettes, including the One Dark Vivid layout, updated attributes, and a consistent surface hierarchy
+- **OneNord Dark/Light**: refreshed editor schemes, typography, and UI configuration
+- **Indent guides**: regular, visual, selected-scope, and matched-brace guides now use visible colors in Nord Dark and Nord Light
+- **Documentation**: README, plugin description, and theme listings updated for five themes
+
+### Fixed
+- **Missing baseAttributes**: completed inherited attributes in Nord Dark and Nord Light
+- **Console magenta**: corrected blue output to the Nord magenta color
+- **Contrast**: improved notification, tooltip, search match, run widget, selection, and excluded-code contrast
+- **Editor tabs**: selected tab background now differs from the tab strip in Nord themes
+
+### Technical
+- Version bumped to 1.6.0 for JetBrains Marketplace publication
+- Compatible with IntelliJ IDEA 2023.3 - 2026.3 (build 233 - 263.*)
+- Built with Gradle 8.5 and Java 17
+
+---
+
 ## [1.5.1] - 2026-10-21
 
 ### Changed
@@ -152,6 +179,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+[1.6.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.6.0
 [1.5.1]: https://github.com/angelf015/NordRecharged/releases/tag/v1.5.1
 [1.4.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.4.0
 [1.3.0]: https://github.com/angelf015/NordRecharged/releases/tag/v1.3.0
